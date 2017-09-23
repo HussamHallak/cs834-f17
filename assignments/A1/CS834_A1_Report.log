@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.21)  22 SEP 2017 07:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.21)  23 SEP 2017 14:35
 entering extended mode
 **./CS834_A1_Report.tex
 (CS834_A1_Report.tex
@@ -29,12 +29,30 @@ Excluding comment 'comment')
 Package: fullpage 1999/02/23 1.1 (PWD)
 \FP@margin=\skip43
 )
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\longtable.sty"
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip44
+\LTright=\skip45
+\LTpre=\skip46
+\LTpost=\skip47
+\LTchunksize=\count87
+\LTcapwidth=\dimen103
+\LT@head=\box26
+\LT@firsthead=\box27
+\LT@foot=\box28
+\LT@lastfoot=\box29
+\LT@cols=\count88
+\LT@rows=\count89
+\c@LT@tables=\count90
+\c@LT@chunks=\count91
+\LT@p@ftn=\toks14
+)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks14
+\KV@toks@=\toks15
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
@@ -56,21 +74,21 @@ Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count87
+\Gread@gobject=\count92
 ))
-\Gin@req@height=\dimen103
-\Gin@req@width=\dimen104
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\fancyvrb\fancyvrb.sty"
 Package: fancyvrb 2008/02/07
 
 Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
 <2008/02/07> (tvz)
-\FV@CodeLineNo=\count88
+\FV@CodeLineNo=\count93
 \FV@InFile=\read1
-\FV@TabBox=\box26
-\c@FancyVerbLine=\count89
-\FV@StepNumber=\count90
+\FV@TabBox=\box30
+\c@FancyVerbLine=\count94
+\FV@StepNumber=\count95
 \FV@OutFile=\write4
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
@@ -90,47 +108,67 @@ Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.sty"
-\lst@mode=\count91
-\lst@gtempboxa=\box27
-\lst@token=\toks15
-\lst@length=\count92
-\lst@currlwidth=\dimen105
-\lst@column=\count93
-\lst@pos=\count94
-\lst@lostspace=\dimen106
-\lst@width=\dimen107
-\lst@newlines=\count95
-\lst@lineno=\count96
-\lst@maxwidth=\dimen108
+\lst@mode=\count96
+\lst@gtempboxa=\box31
+\lst@token=\toks16
+\lst@length=\count97
+\lst@currlwidth=\dimen106
+\lst@column=\count98
+\lst@pos=\count99
+\lst@lostspace=\dimen107
+\lst@width=\dimen108
+\lst@newlines=\count100
+\lst@lineno=\count101
+\lst@maxwidth=\dimen109
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count97
-\lst@skipnumbers=\count98
-\lst@framebox=\box28
+\c@lstnumber=\count102
+\lst@skipnumbers=\count103
+\lst@framebox=\box32
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.cfg"
 File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\longtable.sty"
-Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
-\LTleft=\skip44
-\LTright=\skip45
-\LTpre=\skip46
-\LTpost=\skip47
-\LTchunksize=\count99
-\LTcapwidth=\dimen109
-\LT@head=\box29
-\LT@firsthead=\box30
-\LT@foot=\box31
-\LT@lastfoot=\box32
-\LT@cols=\count100
-\LT@rows=\count101
-\c@LT@tables=\count102
-\c@LT@chunks=\count103
-\LT@p@ftn=\toks16
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count104
+\Gm@cntv=\count105
+\c@Gm@tempcnt=\count106
+\Gm@bindingoffset=\dimen110
+\Gm@wd@mp=\dimen111
+\Gm@odd@mp=\dimen112
+\Gm@even@mp=\dimen113
+\Gm@layoutwidth=\dimen114
+\Gm@layoutheight=\dimen115
+\Gm@layouthoffset=\dimen116
+\Gm@layoutvoffset=\dimen117
+\Gm@dimlist=\toks17
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\relsize.sty"
+Package: relsize 2003/07/04 ver 3.1
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count107
+\float@exts=\toks18
+\float@box=\box33
+\@float@everytoks=\toks19
+\@floatcapt=\box34
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty"
 Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
@@ -138,15 +176,16 @@ Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption3.sty"
 Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 67.
-\captionmargin=\dimen110
-\captionmargin@=\dimen111
-\captionwidth=\dimen112
-\caption@tempdima=\dimen113
-\caption@indent=\dimen114
-\caption@parindent=\dimen115
-\caption@hangindent=\dimen116
+\captionmargin=\dimen118
+\captionmargin@=\dimen119
+\captionwidth=\dimen120
+\caption@tempdima=\dimen121
+\caption@indent=\dimen122
+\caption@parindent=\dimen123
+\caption@hangindent=\dimen124
 )
-\c@ContinuedFloat=\count104
+\c@ContinuedFloat=\count108
+Package caption Info: float package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
 
@@ -159,32 +198,32 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 (CS834_A1_Report.aux)
 \openout1 = `CS834_A1_Report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count105
-\scratchdimen=\dimen117
-\scratchbox=\box33
-\nofMPsegments=\count106
-\nofMParguments=\count107
-\everyMPshowfont=\toks17
-\MPscratchCnt=\count108
-\MPscratchDim=\dimen118
-\MPnumerator=\count109
-\makeMPintoPDFobject=\count110
-\everyMPtoPDFconversion=\toks18
+\scratchcounter=\count109
+\scratchdimen=\dimen125
+\scratchbox=\box35
+\nofMPsegments=\count110
+\nofMParguments=\count111
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count112
+\MPscratchDim=\dimen126
+\MPnumerator=\count113
+\makeMPintoPDFobject=\count114
+\everyMPtoPDFconversion=\toks21
 ) ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
 Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -192,9 +231,6 @@ Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
-)
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
-Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -230,99 +266,117 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-\c@lstlisting=\count111
+\c@lstlisting=\count115
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(85.35826pt, 426.79135pt, 85.35826pt)
+* v-part:(T,H,B)=(85.35826pt, 674.33032pt, 85.35826pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=426.79135pt
+* \textheight=674.33032pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=13.08827pt
+* \headheight=0.0pt
+* \headsep=0.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=50.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 80.
+(Font)              <10.95> on input line 83.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 80.
+(Font)              <8> on input line 83.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 80.
- [1
+(Font)              <6> on input line 83.
+[1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-<images/Q1/stent_Google.png, id=9, 551.05875pt x 548.0475pt>
+<images/Q1/stent_Google.png, id=10, 551.05875pt x 548.0475pt>
 File: images/Q1/stent_Google.png Graphic file (type png)
 
 <use images/Q1/stent_Google.png>
-Package pdftex.def Info: images/Q1/stent_Google.png used on input line 93.
+Package pdftex.def Info: images/Q1/stent_Google.png used on input line 96.
 (pdftex.def)             Requested size: 385.73848pt x 383.63063pt.
  [2 <./images/Q1/stent_Google.png>]
-<images/Q1/stent_Bing.png, id=13, 583.42969pt x 578.91281pt>
+<images/Q1/stent_Bing.png, id=14, 583.42969pt x 578.91281pt>
 File: images/Q1/stent_Bing.png Graphic file (type png)
 
 <use images/Q1/stent_Bing.png>
-Package pdftex.def Info: images/Q1/stent_Bing.png used on input line 118.
+Package pdftex.def Info: images/Q1/stent_Bing.png used on input line 120.
 (pdftex.def)             Requested size: 408.398pt x 405.2362pt.
 
-Overfull \hbox (33.03188pt too wide) in paragraph at lines 140--141
-[][][][] 
- []
-
-
-Overfull \hbox (33.03188pt too wide) in paragraph at lines 140--141
-[][][][] 
- []
-
-
-Overfull \hbox (12.03206pt too wide) in paragraph at lines 150--151
-[][][][] 
- []
-
-
-Overfull \hbox (12.03206pt too wide) in paragraph at lines 150--151
-[][][][] 
- []
-
-
-Overfull \hbox (6.7821pt too wide) in paragraph at lines 200--201
-[][][][] 
- []
-
-
-Overfull \hbox (6.7821pt too wide) in paragraph at lines 200--201
-[][][][] 
- []
-
-
-Overfull \hbox (12.03206pt too wide) in paragraph at lines 210--211
-[][][][] 
- []
-
-
-Overfull \hbox (12.03206pt too wide) in paragraph at lines 210--211
-[][][][] 
- []
-
-
-Underfull \vbox (badness 10000) detected at line 228
+Underfull \vbox (badness 10000) detected at line 230
  []
 
 [3 <./images/Q1/stent_Bing.png>] [4] [5]
-Overfull \hbox (20.16397pt too wide) in paragraph at lines 236--237
-[]\OT1/cmr/m/n/10.95 Python For Be-gin-ners. Avail-able from World Wide Web:(ht
-tp://www.pythonforbeginners.com/). 
+<images/Q1/ureteral_stent_Google.png, id=27, 542.025pt x 577.40718pt>
+File: images/Q1/ureteral_stent_Google.png Graphic file (type png)
+
+<use images/Q1/ureteral_stent_Google.png>
+Package pdftex.def Info: images/Q1/ureteral_stent_Google.png used on input line
+ 278.
+(pdftex.def)             Requested size: 379.4149pt x 404.18228pt.
+ [6 <./images/Q1/ureteral_stent_Google.png>] <images/Q1/ureteral_stent_Bing.png
+, id=31, 565.36218pt x 577.40718pt>
+File: images/Q1/ureteral_stent_Bing.png Graphic file (type png)
+
+<use images/Q1/ureteral_stent_Bing.png>
+Package pdftex.def Info: images/Q1/ureteral_stent_Bing.png used on input line 2
+96.
+(pdftex.def)             Requested size: 395.75082pt x 404.18228pt.
+ [7 <./images/Q1/ureteral_stent_Bing.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 371--372
+[]\OT1/cmr/m/n/10.95 Python For Be-gin-ners. Avail-able from World Wide
  []
 
-[6] (CS834_A1_Report.aux) ) 
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 372--373
+[]\OT1/cmr/m/n/10.95 Cambridge Uni-ver-sity Press. Avail-able from World Wide W
+eb:
+ []
+
+[9] (CS834_A1_Report.aux) ) 
 Here is how much of TeX's memory you used:
- 4871 strings out of 493323
- 73191 string characters out of 3139051
- 374062 words of memory out of 3000000
- 8370 multiletter control sequences out of 15000+200000
+ 5463 strings out of 493323
+ 82015 string characters out of 3139051
+ 357244 words of memory out of 3000000
+ 8939 multiletter control sequences out of 15000+200000
  8065 words of font info for 29 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,8n,40p,623b,1167s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,8n,40p,601b,1165s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
 onts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
 cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.p
-fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on CS834_A1_Report.pdf (6 pages, 215845 bytes).
+fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on CS834_A1_Report.pdf (9 pages, 426124 bytes).
 PDF statistics:
- 47 PDF objects out of 1000 (max. 8388607)
+ 68 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

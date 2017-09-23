@@ -1,21 +1,24 @@
 \documentclass[a4paper, 11pt]{article}
 \usepackage{comment} % enables the use of multi-line comments (\ifx \fi) 
+  
 \usepackage{fullpage} % changes the margin
+\usepackage{longtable}
 \usepackage{graphicx}
 \usepackage{fancyvrb,xcolor}
 \usepackage{listings}
 \usepackage{color}
-\usepackage{longtable}
-
+\usepackage[margin=3cm]{geometry}
+\usepackage{relsize}
 \definecolor{dkgreen}{rgb}{0,0.6,0}
 \definecolor{gray}{rgb}{0.5,0.5,0.5}
 \definecolor{mauve}{rgb}{0.58,0,0.82}
-
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\usepackage{float}
 \usepackage{caption}
 \DeclareCaptionFont{white}{\color{white}}
 \DeclareCaptionFormat{listing}{\colorbox{gray}{\parbox{\textwidth}{#1#2#3}}}
 \captionsetup[lstlisting]{format=listing,labelfont=white,textfont=white}
-
+\newcommand{\bigqm}[1][1]{\text{\larger[#1]{\textbf{?}}}}
 \lstset{
   language=Java,
   aboveskip=3mm,
@@ -65,15 +68,15 @@ To answer this question, the following queries were tested on both Google and Bi
 
 4. Do ureteral stents cause pain?
 
-I chose these queries because two weeks ago, I was told by the doctor that I need a ``stent'' to help pass a stone in my kidney. I had no idea what a stent is, so I asked what is a stent? and she explained. Let's pretend that she did not and walked away.
+\paragraph{}
 
-I am going to start by the first query, and from the results, I am going to get the second query, and so on. 
+I chose these queries because, two weeks ago, I was told by the doctor that I need a ``stent'' to help pass a stone in my kidney. I had no idea what a stent is, so I asked what is a stent? and she explained. Let's pretend that she did not. I want to know what a stent is, the procedure of stenting, the removal of a stent, and whether or not stents cause pain.
 
-1. Stent:
+\paragraph{1. Stent:}
+I ran the first query ``Stent'' and found the following:
 
 A. Google:
-
-Google found about 19,000,000 results. Skipping the ads and looking at the summary given by Google from the first result, I did not see that a stent is not related to kidney stones. The summary stated that a stent is a mesh tube that is used to treat narrow or weak arteries. I opened all of the first 10 results returned by Google and found that only the 7th result mentioned something about ureteral stents. Obviously, there are different types of stents for different purposes. I am specifically looking for something has some relation to kidney stones, but I was not specific enough for Google.
+Google found about 19,000,000 results. Skipping the ads and looking at the summary given by Google about a stent, I did not see that a stent is related to kidney stones. The summary stated that a stent is a mesh tube that is used to treat narrow or weak arteries. I opened all of the first 10 results returned by Google and found that only the 6th result mentioned something about ureteral stents. Obviously, there are different types of stents for different purposes. I am specifically looking for something related to kidney stones, but I was not specific enough for Google.
 
 Precision is the fraction of retrieved documents that are relevant to the query. In other words, it is the number of correct results divided by the number of all returned results.
 
@@ -95,11 +98,8 @@ $$
 
 
 
-\pagebreak
-
 B. Bing:
-
-The query returned 23,700,000 result. The summary of the first result returned by Bing gave a general definition of a stent. Furthermore, it gave me exactly what I am looking for. In this case ``stents used to allow the flow of urine between kidney and bladder''. In fact, The first result returned by Bing and the 7th result returned by Google are the same document, from wikipedia.org:
+The query returned 23,700,000 results. The summary returned by Bing gave a general definition of a stent. The summary contains exactly what I am looking for ``stents used to allow the flow of urine between kidney and bladder''. This summary, returned by Bing, came from and the document in the 6th result, from wikipedia.org:
 https://en.wikipedia.org/wiki/Stent 
 
 Out of the 10 results returned by Bing, Only 3 talked about ureteral stents.
@@ -112,123 +112,258 @@ $$
 precision = \frac{3}{10} = 0.3
 $$
 
+\pagebreak
+
 \begin{figure}[h]
-\caption{Query: Stent, Search Engine: Google}
+\caption{Query: Stent, Search Engine: Bing}
 \centering
 \includegraphics[scale=0.7]{Q1/stent_Bing.png}
 \end{figure}
 
 \textbf{Overlap:}
-The following table shows the ordered results returned by each search engine. Overlaps are highlighted in matching colors.
+The following table shows the ordered results returned by each search engine: 
 
 \begin{longtable}{ |p{1cm}|p{6cm}|p{6cm}| } 
- \hline
+\hline
 Order & Google & Bing \\
  \hline 
  1 & 
  \begin{lstlisting}[breakatwhitespace=〈false)]
- http://www.boohoo.com/
+http://www.webmd.com/heart-disease/guide/stents-types-and-uses#1
 \end{lstlisting} 
 &
  \begin{lstlisting}[breakatwhitespace=〈false)]
- http://www.boohoo.com/
+https://medlineplus.gov/ency/article/002303.htm
 \end{lstlisting} 
  \\
  \hline 
  2 & 
 \begin{lstlisting}[breakatwhitespace=〈false)] 
-http://www.vox.com/2016/9/7/12815076/america-uninsured-rate-dropped?source=socnet_tw_aca_20160907_bo_uninsured-rate-low_vox_3&utm_medium=social&utm_source=tw_bo&utm_campaign=socnet_tw_aca_20160907_bo_uninsured-rate-low_vox_3&utm_content=20160907_bo_uninsured-rate-low_vox_3
+https://www.heart.org/idc/groups/heart-public/@wcm/@hcm/documents/downloadable/ucm_300452.pdf
 \end{lstlisting}
 &
  \begin{lstlisting}[breakatwhitespace=〈false)]
- http://www.boohoo.com/
+https://en.wikipedia.org/wiki/Coronary_stent
 \end{lstlisting} 
   \\ 
  \hline 
  3 & 
 \begin{lstlisting}[breakatwhitespace=〈false)]  
-http://www.vox.com/new-money/2016/10/21/13361414/median-wages?source=socnet_tw_econ_20161026_bo_wage-increase_durable_4&utm_medium=social&utm_source=tw_bo&utm_campaign=socnet_tw_econ_20161026_bo_wage-increase_durable_4&utm_content=20161026_bo_wage-increase_durable_4 
+https://www.healthline.com/health/stent
  \end{lstlisting}
  &
  \begin{lstlisting}[breakatwhitespace=〈false)]
- http://www.boohoo.com/
+http://secondscount.org/treatments/treatments-detail?cid=7709f984-f6a5-44bb-8c2f-d7114c5b4c0b
 \end{lstlisting} 
  \\
  \hline 
  4 & 
  \begin{lstlisting}[breakatwhitespace=〈false)]
-https://www.fisherwallace.com/?gclid=CNr-xNqt38UCFUU8gQodQHIAsQ 
+https://www.nhlbi.nih.gov/health/health-topics/topics/stents/
 \end{lstlisting}
 &
  \begin{lstlisting}[breakatwhitespace=〈false)]
- http://www.boohoo.com/
+https://www.nhlbi.nih.gov/health/health-topics/topics/stents/
 \end{lstlisting} 
 \\ 
  \hline
  5 & 
  \begin{lstlisting}[breakatwhitespace=〈false)] 
- http://www.nme.com/features/taylor-swift-power-fame-and-the-future-the-full-nme-cover-interview-549 
+https://www.nhlbi.nih.gov/health/health-topics/topics/stents/after
   \end{lstlisting}
   &
  \begin{lstlisting}[breakatwhitespace=〈false)]
- http://www.boohoo.com/
+http://www.webmd.com/heart-disease/guide/stents-types-and-uses
 \end{lstlisting} 
  \\
  \hline 
  6 &  
  \begin{lstlisting}[breakatwhitespace=〈false)] 
-http://www.health.com/health/gallery/0,,20705881,00.html 
+https://en.wikipedia.org/wiki/Stent
  \end{lstlisting}
  &
  \begin{lstlisting}[breakatwhitespace=〈false)]
- http://www.boohoo.com/
+https://www.healthline.com/health/stent
 \end{lstlisting} 
  \\ 
  \hline 
  7 & 
  \begin{lstlisting}[breakatwhitespace=〈false)]
-http://www.mtv.com/vma/winners
+https://www.nhlbi.nih.gov/health/health-topics/topics/stents/risks
   \end{lstlisting}
   &
  \begin{lstlisting}[breakatwhitespace=〈false)]
- http://www.boohoo.com/
+http://www.mayoclinic.org/tests-procedures/coronary-angioplasty/home/ovc-20241582
 \end{lstlisting} 
   \\
  \hline 
  8 & 
  \begin{lstlisting}[breakatwhitespace=〈false)] 
-http://www.vox.com/energy-and-environment/2016/9/30/13111088/cleantech-costs-falling-one-chart?source=socnet_tw_cc_20161006_bo_clean-energy_technology_1&utm_medium=social&utm_source=tw_bo&utm_campaign=socnet_tw_cc_20161006_bo_clean-energy_technology_1&utm_content=20161006_bo_clean-energy_technology_1
+https://myheart.net/articles/stent-save-life/
   \end{lstlisting}
   &
  \begin{lstlisting}[breakatwhitespace=〈false)]
- http://www.boohoo.com/
+https://en.wikipedia.org/wiki/Stent
 \end{lstlisting} 
  \\ 
   \hline 
  9 & 
 \begin{lstlisting}[breakatwhitespace=〈false)] 
-https://www.washingtonpost.com/news/energy-environment/wp/2016/10/10/climate-change-has-been-making-western-forest-fires-worse-for-decades-study-says/?source=socnet_tw_cc_20161027_bo_energy-environment_climate_5&utm_medium=social&utm_source=tw_bo&utm_campaign=socnet_tw_cc_20161027_bo_energy-environment_climate_5&utm_content=20161027_bo_energy-environment_climate_5 
+http://www.livemint.com/Industry/HMU54RjTrKBHQKPj4QSv0O/Boston-Scientific-may-withdraw-its-highend-stent-Synergy.html
 \end{lstlisting}
 &
  \begin{lstlisting}[breakatwhitespace=〈false)]
- http://www.boohoo.com/
+http://medical-dictionary.thefreedictionary.com/stent
 \end{lstlisting} 
 \\
  \hline 
  10 &  
 \begin{lstlisting}[breakatwhitespace=〈false)] 
-http://www.npr.org/sections/thetwo-way/2016/08/31/492177267/obama-at-lake-tahoe-praises-conservation-efforts?source=socnet_tw_cc_20160906_bo_npr-article_conservation_2&utm_medium=socnet&utm_source=tw&utm_campaign=socnet_tw_cc_20160906_bo_npr-article_conservation_2&utm_content=20160906_bo_npr-article_conservation_2 
+https://medlineplus.gov/ency/article/002303.htm
 \end{lstlisting}
 &
  \begin{lstlisting}[breakatwhitespace=〈false)]
- http://www.boohoo.com/
+https://www.heart.org/idc/groups/heart-public/@wcm/@hcm/documents/downloadable/ucm_300452.pdf
 \end{lstlisting} 
 \\
  \hline
 \end{longtable}
 
+From the table, it is clear that the overlap between the results for the two search engines is six results out of 10 or 60\%.
+
+$$
+G_1 \equiv B_5
+$$
+$$
+G_2 \equiv B_{10}
+$$
+$$
+G_3 \equiv B_6
+$$
+$$
+G_4 \equiv B_4
+$$
+$$
+G_6 \equiv B_8
+$$
+$$
+G_{10} \equiv B_1
+$$
 
 
+Where:
+
+$G_i$ denotes the $i$th result returned by Google.
+
+$B_j$ denotes the $j$th result returned by Bing.
+ 
+
+\paragraph{2. Ureteral Stent:}
+ 
+I ran the query ``Ureteral Stent'' in the same manners as the first query and found the following results:
+
+A. Google:
+About 281,000 results are returned by Google.
+All of the first 10 results returned by Google, obviously, were related to ureteral stents. Only one of the links did not allow me to read the entire article until I sign up and login to the website, which I did not. I will consider this result not to be a good one because Google returned a result for which the representation of the resource was not retrievable without being a member of the website. All of the remaining 9 results contained information about the procedure, side effects, etc.
+
+$$ 
+precision = \frac{9}{10} = 0.9
+$$
+
+\pagebreak
+
+\begin{figure}[h]
+\caption{Query: Ureteral Stent, Search Engine: Google}
+\centering
+\includegraphics[scale=0.7]{Q1/ureteral_stent_Google.png}
+\end{figure}
+
+
+
+\pagebreak
+
+B. Bing:
+
+The query returned 2,060,000 result. 8 out of the first 10 retrieved documents contained almost everything I needed to know about ureteral stents. One document listed the types/shapes of ureteral stents, but no other information. One document briefly explained what a ureteral stent is, but did not provide any information about the procedure, complications, side effects, etc.  
+
+$$ 
+precision = \frac{8}{10} = 0.8
+$$
+
+\begin{figure}[h]
+\caption{Query: Ureteral Stent, Search Engine: Bing}
+\centering
+\includegraphics[scale=0.7]{Q1/ureteral_stent_Bing.png}
+\end{figure}
+
+\textbf{Overlap:}
+The overlap between the results for Google and Bing is 5 out of 10 or 50\%. 
+
+\paragraph{3. Ureteral Stent Procedure:}
+
+
+Similarly, I ran the query ``Ureteral Stent Procedure''  and found the following results:
+
+A. Google: About 153,000 results are returned by Google. One of the links did not allow me to read the entire article until I sign up and login to the website; the same link was returned running the previous query. One link in the results did not have enough information about the procedure itself, but it had good information about the recovery, diet, etc. All of the remaining 8 results contained information about the procedure, side effects, etc.
+
+$$ 
+precision = \frac{8}{10} = 0.8
+$$
+
+B. Bing: The query returned 3,330,000 results. 8 out of the first 10 retrieved documents contained enough information about ureteral stent procedure. One document was about stenting pets dogs and cats. One document briefly explained what a ureteral stent is, but did not include the procedure.  
+
+$$ 
+precision = \frac{8}{10} = 0.8
+$$
+
+
+\textbf{Overlap:}
+The overlap between the results for Google and Bing is 5 out of 10 or 50\%. 
+
+\paragraph{4. Do ureteral stents cause pain?:}
+
+Finally, I ran the query ``Do ureteral stents cause pain?''  and found the following results:
+
+A. Google: About 908,000 results are returned by Google. All of the 10 results had useful information about the pain and ways to manage it.
+
+$$ 
+precision = \frac{10}{10} = 1.0
+$$
+
+B. Bing: The query returned 163,000,000 results. 8 out of the first 10 retrieved documents contained enough information about the pain associated with ureteral stent procedure and how to manage it. One document had questions from patients answered by doctors, but there was not any questions about the pain. One document briefly explained what a ureteral stent is, but did not include information about the pain.  
+
+$$ 
+precision = \frac{8}{10} = 0.8
+$$
+
+\textbf{Overlap:}
+The overlap between the results for Google and Bing is 6 out of 10 or 60\%. 
+
+\subsection*{Conclusion:}
+
+Bing did a better job on the single word query I ran, while Google got better as the query got longer and more specific.
+
+Average Precision for Google is:
+
+$$ 
+precision_{AVG} = \frac{0.1 + 0.9 + 0.8 + 1.0}{4} = 0.7
+$$
+
+
+Average Precision for Bing is:
+
+$$ 
+precision_{AVG} = \frac{0.3 + 0.8 + 0.8 + 0.8}{4} = 0.675
+$$
+
+The average precision for Google is slightly higher than it is for Bing.
+
+The average overlap between the results for Google and Bing is 55\%:
+
+$$ 
+Overlap_{AVG} = \frac{0.6 + 0.5 + 0.5 + 0.6}{4} = 0.55
+$$
+ 
 \subsection*{Included Files:}
 bowtie.png
 
