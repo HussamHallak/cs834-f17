@@ -364,8 +364,19 @@ $$
 Overlap_{AVG} = \frac{0.6 + 0.5 + 0.5 + 0.6}{4} = 0.55
 $$
  
-\subsection*{Included Files:}
-bowtie.png
+\section*{Question 2:}
+Exercise 3.8: Suppose that, in an effort to crawl web pages faster, you set up two crawling
+machines with different starting seed URLs. Is this an effective strategy for
+distributed crawling? Why or why not?
+
+\subsection*{Answer:}
+Assuming that the number of machines is fixed. Yes! This is an effective strategy for distributed crawling because otherwise, if we set up both crawling machines with the same starting seed URLs, the chance that both crawlers end up crawling the same pages is large, not only because the starting point is identical, but also because most links on a page lead to pages that are related to it. The likelihood of both crawlers crawling the same pages will decrease if we set them up with different starting seed URLs. The original Google paper stated that Google has a fast distributed crawling system where a single URLserver serves lists of URLs to a number of crawlers (They ran 3). I assume that the URLserver is not serving the same URLs to all 3 crawlers, because if that was the case, there will be no point in adding 2 or more crawlers. I included the bowtie graph below to demonstrate my argument. Let's assume that the starting node for both crawlers is P. It is clear that the node N will not be crawled because there is no path from P to N. On the other hand, if we set two different starting points M and P for the first and second crawler respectively, the first crawler will crawl the node N as well as all other nodes crawled by the second crawler.
+
+\begin{figure}[h]
+\caption{Bowtie}
+\centering
+\includegraphics[scale=0.5]{Q2/bowtie.png}
+\end{figure}
 
 \begin{thebibliography}{9}
 \bibitem{Python For Beginners} Python For Beginners. Available from World Wide Web:(http://www.pythonforbeginners.com/).
