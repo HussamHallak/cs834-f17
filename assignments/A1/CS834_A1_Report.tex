@@ -392,6 +392,30 @@ Enterprise search is very similar to site search where the domain of focus is th
 Unlike a web search engine, an enterprise search engine has a much smaller document collection to crawl and index which makes it better in terms of the time needed for crawling and indexing as well as the freshness of the results.
 
 \section*{Question 3:}
+Exercise 1.4: List five web services or sites that you use that appear to use search, not including
+web search engines. Describe the role of search for that service. Also describe
+whether the search is based on a database or grep style of matching, or if the search
+is using some type of ranking.
+
+\section*{Answer:}
+
+\textbf{1. ebay.com:}
+Ebay is an e-commerce corporation, facilitating online consumer-to-consumer and business-to-consumer sales. The role of search for the service is making the products listed by sellers on ebay.com searchable to buyers. I use it to buy all kind of things. Let's say I wanted to buy a miter saw. I go to ebay.com, type miter saw in the search box, click search, and finally sort by price+shipping low-to-high. Ebay uses Oracle database, so the search is based on a database.
+
+\textbf{2. amazon.com:}
+Amazon is an e-commerce and cloud computing company. Amazon is the largest Internet-based retailer. The role of search for the service is the same as Ebay. Amazon uses NoSQL database called DynamoDB. The search is based on a database.
+
+\textbf{3. norfolk.craigslist.org:}
+Craigslist is a classified advertisements website and discussion forum. I mostly use it to buy vehicles, various items for my house, used tools, etc. The role of the search is the same as Ebay and Amazon. Craigslist uses a variety of data storage technologies, both SQL (MySQL) and NoSQL (Redis, MongoDB, memcached, etc). The search is based on a database.
+
+\textbf{4. youtube.com:}
+Youtube is a video sharing website. The role of the search for the service is making videos hosted on Youtube searchable. Youtube provides videos related to the search query. It uses MySQL database, and the search is based on a database.
+
+\textbf{5. facebook.com:}
+Facebook is an online social media and social networking service. The role of the search for the service is making personal profiles, posts, groups, and pages searchable for Facebook users. I use it to find relatives and old friends that I lost contact with due to my moving from Syria to the United States in 2003 before Facebook was launched. Facebook uses MySQL database and the search is based on a database.
+
+
+\section*{Question 4:}
 Exercise 3.8: Suppose that, in an effort to crawl web pages faster, you set up two crawling
 machines with different starting seed URLs. Is this an effective strategy for
 distributed crawling? Why or why not?
@@ -408,6 +432,17 @@ Assuming that the number of machines is fixed. Yes! This is an effective strateg
 \begin{thebibliography}{9}
 \bibitem{Python For Beginners} Python For Beginners. Available from World Wide Web:(http://www.pythonforbeginners.com/).
 \bibitem{Cambridge University Press} Cambridge University Press. Available from World Wide Web: (http://nlp.stanford.edu/IR-book/html/htmledition/the-web-graph-1.html).
+
+http://www.dba-oracle.com/oracle_news/news_ebay_massive_oracle.htm
+
+https://www.wired.com/2012/01/amazon-dynamodb/
+
+https://www.youtube.com/watch?v=a0OvgTfF8Pg
+
+http://highscalability.com/blog/2012/3/26/7-years-of-youtube-scalability-lessons-in-30-minutes.html
+
+http://www.datacenterknowledge.com/data-center-faqs/facebook-data-center-faq-page-2
+
 \end{thebibliography}
 
 \end{document}
