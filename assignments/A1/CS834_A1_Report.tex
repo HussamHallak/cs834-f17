@@ -365,12 +365,39 @@ Overlap_{AVG} = \frac{0.6 + 0.5 + 0.5 + 0.6}{4} = 0.55
 $$
  
 \section*{Question 2:}
+Exercise 1.2: Site search is another common application of search engines. In this case,
+search is restricted to the web pages at a given website. Compare site search to
+web search, vertical search, and enterprise search.
+
+\section*{Answer:}
+
+Site Search: Searching is restricted to the web pages at a given website.
+
+Web Search: Searching all web pages that exist on the web.
+
+Site search engines are applications usually developed by companies that create the websites in order to offer users the ability to search for something within a particular website. For example, if I want to buy a lawn mower, I can go to Home Depot website and type ``lawn mower'' in their search box and click ``SEARCH''. For simplicity, let's assume that Home Depot has a static HTML website and that their search engine greps for the search query in all HTML documents within the website repository. The returned results are all pages that exist on Home Depot website. In this case, no crawling or indexing is needed.
+
+I am sure that Home Depot's website uses a database to store their products information, and that search is performed using SQL queries matching search terms with keywords for each product stored in the database. I just used the example in case of static HTML website as a simplification.
+
+Even if crawling and indexing is implemented in a site search engine, The crawling and indexing is faster and the returned documents are fresher because the crawler and the indexer do not have to crawl and index a massive amount of documents like a web search engine does.
+
+Site search not only ensures the freshness of the returned documents, it also does not have to worry about spam documents like a web search engine does because the site administrator has full control over the website repository. Unless the web-hosting server is compromised, site search should not return spam documents.
+
+A vertical search engine focuses on a specific segment of the web. It is a specialty or topical search engine. The vertical content area could be based on topicality, media type, or genre of content like shopping, images, videos, scholarly literature, etc. For example, Google Shopping is a vertical search engine. Web search engines crawl and index a massive amount of pages on the web. On the other hand, vertical search engines typically use a focused crawlers which crawl and index only relevant web pages to a pre-defined topic, media type, etc.
+
+Vertical search has several advantages over web search. Some of which include greater precision because the content crawled and indexed is limited to a certain topic or media type, etc.
+
+Enterprise search is very similar to site search where the domain of focus is the enterprise, such as a company, group of companies, government, or other organizations. Enterprise search makes the content from multiple enterprise-type sources searchable to a defined audience. Examples of Enterprise search include search provided to city employees for a name and address of a property owner, search in medical records saved on Sentara servers  that is provided to doctors and nurses that work for Sentara, etc.
+
+Unlike a web search engine, an enterprise search engine has a much smaller document collection to crawl and index which makes it better in terms of the time needed for crawling and indexing as well as the freshness of the results.
+
+\section*{Question 3:}
 Exercise 3.8: Suppose that, in an effort to crawl web pages faster, you set up two crawling
 machines with different starting seed URLs. Is this an effective strategy for
 distributed crawling? Why or why not?
 
 \subsection*{Answer:}
-Assuming that the number of machines is fixed. Yes! This is an effective strategy for distributed crawling because otherwise, if we set up both crawling machines with the same starting seed URLs, the chance that both crawlers end up crawling the same pages is large, not only because the starting point is identical, but also because most links on a page lead to pages that are related to it. The likelihood of both crawlers crawling the same pages will decrease if we set them up with different starting seed URLs. The original Google paper stated that Google has a fast distributed crawling system where a single URLserver serves lists of URLs to a number of crawlers (They ran 3). I assume that the URLserver is not serving the same URLs to all 3 crawlers, because if that was the case, there will be no point in adding 2 or more crawlers. I included the bowtie graph below to demonstrate my argument. Let's assume that the starting node for both crawlers is P. It is clear that the node N will not be crawled because there is no path from P to N. On the other hand, if we set two different starting points M and P for the first and second crawler respectively, the first crawler will crawl the node N as well as all other nodes crawled by the second crawler.
+Assuming that the number of machines is fixed. Yes! This is an effective strategy for distributed crawling because otherwise, if we set up both crawling machines with the same starting seed URLs, the chance that both crawlers end up crawling the same pages is large, not only because the starting point is identical, but also because most links on a page lead to pages that are related to it. The likelihood of both crawlers crawling the same pages will decrease if we set them up with different starting seed URLs. The original Google paper stated that Google has a fast distributed crawling system where a single URLserver serves lists of URLs to a number of crawlers (They ran 3). I assume that the URLserver is not serving the same URLs to all 3 crawlers, because if that was the case, there will be no point in adding 2 or more crawlers. I included the bowtie graph I had from CS532 that I took last semester to demonstrate my argument. Please ignore the bowtie itself and focus on the nodes and edges between them. Let's assume that the starting node for both crawlers is P. It is clear that the node N will not be crawled because there is no path from P to N. On the other hand, if we set two different starting points M and P for the first and second crawler respectively, the first crawler will crawl the node N as well as all other nodes crawled by the second crawler.
 
 \begin{figure}[h]
 \caption{Bowtie}
