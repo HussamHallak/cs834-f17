@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.21)  24 SEP 2017 04:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.21)  25 SEP 2017 05:49
 entering extended mode
 **./CS834_A1_Report.tex
 (CS834_A1_Report.tex
@@ -353,81 +353,79 @@ File: images/Q2/bowtie.png Graphic file (type png)
 <use images/Q2/bowtie.png>
 Package pdftex.def Info: images/Q2/bowtie.png used on input line 429.
 (pdftex.def)             Requested size: 361.3491pt x 203.25887pt.
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+ [11 <./images/Q2/bowtie.png>]
+Overfull \hbox (94.49022pt too wide) in paragraph at lines 461--463
+\OT1/cmr/m/n/10.95 in ``a'' tags, is a full or rel-a-tive link (e.g., /fold-er/
+in-dex.html in-stead of https://example.com/folder/index.html) 
+ []
 
-Underfull \hbox (badness 10000) in paragraph at lines 433--434
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+Overfull \hbox (6.0pt too wide) in paragraph at lines 484--484
+[][][][][][][] 
+ []
+
+(Q5/crawler.py [12]) [13]
+<images/Q5/crawler.png, id=58, 499.11469pt x 543.53062pt>
+File: images/Q5/crawler.png Graphic file (type png)
+
+<use images/Q5/crawler.png>
+Package pdftex.def Info: images/Q5/crawler.png used on input line 493.
+(pdftex.def)             Requested size: 349.37788pt x 380.46883pt.
+ [14 <./images/Q5/crawler.png>]
+<images/Q5/files.png, id=62, 499.8675pt x 448.67625pt>
+File: images/Q5/files.png Graphic file (type png)
+
+<use images/Q5/files.png>
+Package pdftex.def Info: images/Q5/files.png used on input line 503.
+(pdftex.def)             Requested size: 349.90486pt x 314.07123pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 507--508
 []\OT1/cmr/m/n/10.95 Python For Be-gin-ners. Avail-able from World Wide
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 434--435
+Underfull \hbox (badness 10000) in paragraph at lines 508--509
 []\OT1/cmr/m/n/10.95 Cambridge Uni-ver-sity Press. Avail-able from World Wide W
 eb:
  []
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.436 http://www.dba-oracle.com/oracle_
-                                       news/news_ebay_massive_oracle.htm
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.437 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.437 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.437 
-      
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 442--443
+Underfull \hbox (badness 10000) in paragraph at lines 516--517
 []\OT1/cmr/m/n/10.95 http://highscalability.com/blog/2012/3/26/7-years-of-youtu
-be-scalability-lessons-in-30-
+be-scalability-lessons-in-
  []
 
-[11 <./images/Q2/bowtie.png>] (CS834_A1_Report.aux) ) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 518--519
+[]\OT1/cmr/m/n/10.95 http://www.datacenterknowledge.com/data-center-faqs/facebo
+ok-data-center-faq-
+ []
+
+[15 <./images/Q5/files.png>] (CS834_A1_Report.aux) ) 
 Here is how much of TeX's memory you used:
- 5469 strings out of 493323
- 82131 string characters out of 3139051
+ 5670 strings out of 493323
+ 84563 string characters out of 3139051
  357244 words of memory out of 3000000
- 8943 multiletter control sequences out of 15000+200000
+ 9135 multiletter control sequences out of 15000+200000
  8065 words of font info for 29 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,8n,40p,1403b,1165s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb
-><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Pro
-gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on CS834_A1_Report.pdf (11 pages, 449260 bytes).
+ 39i,8n,43p,1403b,1659s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Prog
+ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on CS834_A1_Report.pdf (15 pages, 581704 bytes).
 PDF statistics:
- 77 PDF objects out of 1000 (max. 8388607)
+ 92 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
