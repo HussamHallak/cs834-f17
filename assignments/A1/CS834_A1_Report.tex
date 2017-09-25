@@ -383,7 +383,7 @@ Even if crawling and indexing is implemented in a site search engine, The crawli
 
 Site search not only ensures the freshness of the returned documents, it also does not have to worry about spam documents like a web search engine does because the site administrator has full control over the website repository. Unless the web-hosting server is compromised, site search should not return spam documents.
 
-A vertical search engine focuses on a specific segment of the web. It is a specialty or topical search engine. The vertical content area could be based on topicality, media type, or genre of content like shopping, images, videos, scholarly literature, etc. For example, Google Shopping is a vertical search engine. Web search engines crawl and index a massive amount of pages on the web. On the other hand, vertical search engines typically use a focused crawlers which crawl and index only relevant web pages to a pre-defined topic, media type, etc.
+A vertical search engine focuses on a specific segment of the web. It is a specialty or topical search engine. The vertical content area could be based on topicality, media type, or genre of content like shopping, images, videos, scholarly literature, etc. For example, Google Shopping is a vertical search engine. Web search engines crawl and index a massive amount of pages on the web. On the other hand, vertical search engines typically use focused crawlers which crawl and index only relevant web pages to a pre-defined topic, media type, etc.
 
 Vertical search has several advantages over web search. Some of which include greater precision because the content crawled and indexed is limited to a certain topic or media type, etc.
 
@@ -412,7 +412,7 @@ Craigslist is a classified advertisements website and discussion forum. I mostly
 Youtube is a video sharing website. The role of the search for the service is making videos hosted on Youtube searchable. Youtube provides videos related to the search query. It uses MySQL database, and the search is based on a database.
 
 \textbf{5. facebook.com:}
-Facebook is an online social media and social networking service. The role of the search for the service is making personal profiles, posts, groups, and pages searchable for Facebook users. I use it to find relatives and old friends that I lost contact with due to my moving from Syria to the United States in 2003 before Facebook was launched. Facebook uses MySQL database and the search is based on a database.
+Facebook is an online social media and social networking service. The role of the search for the service is making personal profiles, posts, groups, and pages searchable for Facebook users. I use it to find relatives and old friends that I lost contact with due to my moving out of Syria in 2003 before Facebook was launched. Facebook uses MySQL database and the search is based on a database.
 
 
 \section*{Question 4:}
@@ -459,7 +459,9 @@ e. Wait 5 seconds before you crawl and download another page.
 There are two functions implemented in the program:
 
 1. isAbsolute(url):
-This function checks if the passed url, extracted from href attribute in ``a'' tags, is a full or relative link (e.g., /folder/index.html instead of https://example.com/folder/index.html)
+This function checks if the passed url, extracted from href attribute in ``a'' tags, is a full or relative link
+
+(e.g., /folder/index.html instead of https://example.com/folder/index.html)
 
 2. crawl(url):
 The role of this function is to:
@@ -488,7 +490,7 @@ I ran the crawler on Dr. Nelson's web page and passed 10 ``ten pages'' as the nu
 This is a screen shot of running the crawler:
 
 \begin{figure}[h]
-\caption{Bowtie}
+\caption{Running crawler.py}
 \centering
 \includegraphics[scale=0.7]{Q5/crawler.png}
 \end{figure}
@@ -498,7 +500,7 @@ This is a screen shot of running the crawler:
 This is a screen shot of the 10 HTML files downloaded from crawled pages:
 
 \begin{figure}[h]
-\caption{Bowtie}
+\caption{Pages downloaded by crawler.py}
 \centering
 \includegraphics[scale=0.7]{Q5/files.png}
 \end{figure}
