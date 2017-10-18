@@ -7,7 +7,7 @@ import krovetzstemmer
 if __name__ == "__main__":
     if len(sys.argv) < 2:
 	print "Usage: python PKstem.py <file1> <file2> <file3> ..."
-	print "e.g: python PKstem index.html myPage.html default.html some_page.html"
+	print "e.g: python PKstem.py index.html myPage.html default.html some_page.html"
 	exit()
 file_names = set()
 for i in range(1,len(sys.argv)):

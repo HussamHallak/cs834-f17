@@ -368,18 +368,24 @@ Original Text & Porter Stem & Krovetz Stem \\
 
 
 
-
-
-
-
-
 \section*{Question 3:}
 Exercise 4.8:
 
-Find the 10 Wikipedia documents with the most inlinks. Show the collection
-of anchor text for those pages.
+Find the 10 Wikipedia documents with the most inlinks. Show the collection of anchor text for those pages.
 
 \section*{Answer:}
+
+In order to find the 10 Wikipedia documents with the most inlinks, I created a small python script ``inlinks.py'' that extracts all links found in Wikipedia documents from WikiSmall collection. I stored the links as a key-value pair, where file name is the key and the link is the value. After grouping the links by their target, I counted them and sorted the files by the number of inlinks to find first 10  Wikipedia documents with the most inlinks.
+
+\lstinputlisting[language=Python, breakatwhitespace=〈false), label=The content of inlinks.py, caption= The content of inlinks.py]{Q3/inlinks.py}
+
+The program writes the result to a file ``output.txt''. This is a screen shot of the file:
+
+\begin{figure}[h]
+\caption{The output of inlinks.py}
+\centering
+\includegraphics[scale=0.45]{Q3/inlinks.png}
+\end{figure}
 
 
 \section*{Question 4:}
@@ -404,6 +410,41 @@ slow B
 the A B
 
 \subsection*{Answer:}
+
+To create an inverted index, we need to build a table of two columns. The first column contains the words that appear in the set of chosen documents, two in this case. The second column contains the documents in which the words appear.
+
+I created a small python script ``inverted.py'' that accepts two command line arguments; these are the file names of the documents for which the inverted index will be built. The program stores the unique words in each document as a key-value pair where the document is the key and the words are the value. Swapping the key and the value will generate the inverted index we need. The output is printed on the screen and saved to the file ``output.txt''.
+
+\lstinputlisting[language=Python, breakatwhitespace=〈false), label=The content of inverted.py, caption= The content of inverted.py]{Q4/inverted.py}
+
+The files I chose to use to build the inverted index are taken from the WikiSmall collection. These files are:
+
+Aakrosh\_(1998\_film).html
+
+Babs\_Fafunwa\_5f48.html
+
+\pagebreak
+
+This is a screen shot of running the program:
+
+
+\begin{figure}[h]
+\caption{Running inverted.py}
+\centering
+\includegraphics[scale=0.7]{Q4/inverted.png}
+\end{figure}
+
+\pagebreak
+
+This is a screen shot of the output file ``output.txt'':
+
+\begin{figure}[h]
+\caption{output.txt screen shot}
+\centering
+\includegraphics[scale=0.7]{Q4/output.png}
+\end{figure}
+
+
 
 \section*{Question 5:}
 Exercise 5.10: 
