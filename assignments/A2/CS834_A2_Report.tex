@@ -262,9 +262,116 @@ The same inconsistency held for Bing. The estimates varied by few billions.
 \section*{Question 2:}
 Exercise 4.6:
 
-Process fiveWikipedia documents using the Porter stemmer and the Krovetz stemmer. Compare the number of stems produced and find 10 examples of differences in the stemming that could have an impact on ranking.
+Process five Wikipedia documents using the Porter stemmer and the Krovetz stemmer. Compare the number of stems produced and find 10 examples of differences in the stemming that could have an impact on ranking.
 
 \section*{Answer:}
+
+I have chosen the following documents from WikiSmall collection to process them using Porter and Krovetz stemmers.
+
+Aakrosh\_(1998\_film).html
+
+Aargau\_frank.html
+
+Aaron\_Chalmers\_3ab5.html
+
+Baba\_Budan\_67b5.html
+
+Babs\_Fafunwa\_5f48.html
+
+I wrote a simple python script PKstem.py to process the documents, stem the unique words in them, using Porter and Krovetz stemmers. The stemmers were not implemented from scratch because there are python libraries for both stemmers already.
+
+\lstinputlisting[language=Python, breakatwhitespace=〈false), label=The content of PKstem.py, caption= The content of PKstem.py]{Q2/PKstem.py}
+
+The program accepts the document(s) file name(s) as command line argument(s). It is possible to run the program and process all files at once, however, I ran each file separately.
+
+After running the documents, I found the following results:
+
+\textbf{Aakrosh\_(1998\_film).html}
+
+Unique words: 229
+
+Porter stems: 224
+
+Krovetz stems: 227
+ 
+\textbf{Aargau\_frank.html}
+
+Unique words: 199
+
+Porter stems: 193
+
+Krovetz stems: 193
+
+\textbf{Aaron\_Chalmers\_3ab5.html}
+
+Unique words: 154
+
+Porter stems: 149
+
+Krovetz stems: 150
+
+\textbf{Baba\_Budan\_67b5.html}
+
+Unique words: 92
+
+Porter stems: 90
+
+Krovetz stems: 91
+
+\textbf{Babs\_Fafunwa\_5f48.html}
+
+Unique words: 239
+
+Porter stems: 231
+
+Krovetz stems: 235
+
+This is a screen shot of running the program on the first file:
+
+
+
+\begin{figure}[h]
+\caption{Running PKstem.py}
+\centering
+\includegraphics[scale=0.64]{Q2/PKstem.png}
+\end{figure}
+
+\pagebreak
+
+I found the following examples of differences in the stemming that could have an impact on ranking:
+
+\begin{longtable}{ |p{3cm}|p{3cm}|p{3cm}| } 
+\hline
+Original Text & Porter Stem & Krovetz Stem \\
+ \hline 
+ daily & daili & daily \\
+ \hline
+  changes & chang & change \\
+ \hline
+  academic & academ & academic \\
+ \hline
+  collaboration & collabor & collaboration \\
+ \hline
+  manchester & manchest & manchester \\
+ \hline
+  denominations & denomin & denomination \\
+ \hline
+  circulating & circul & circulate \\
+ \hline
+  article & articl & article \\
+ \hline
+  versus & versu & versus \\
+ \hline
+  association & associ & association \\
+ \hline
+\end{longtable}
+
+
+
+
+
+
+
 
 \section*{Question 3:}
 Exercise 4.8:
@@ -313,30 +420,6 @@ You can assume that each 2-bit input number is encoded separately.
 
 We have 4 possible 2-bit numbers and 3 possible shorter bit sequences. Let's apply the pigeonhole principle, which states that if n items are put into m containers, with n > m, then at least one container must contain more than one item. This means that any mapping from 2-bit sequences to shorter sequences must have at least 2 sequences compressed to the same shorter sequence. Therefore, when trying to decompress this shorter sequence, mentioned above, it is impossible know which of the original 2-bit sequences it was compressed from.
 
-\paragraph{}
-
-
-\lstinputlisting[language=Python, breakatwhitespace=〈false), label=The content of crawler.py, caption= The content of crawler.py]{Q5/crawler.py}
-
-I ran the crawler on Dr. Nelson's web page and passed 10 ``ten pages'' as the number of pages I want to be downloaded.
-
-This is a screen shot of running the crawler:
-
-\begin{figure}[h]
-\caption{Running crawler.py}
-\centering
-\includegraphics[scale=0.7]{Q5/crawler.png}
-\end{figure}
-
-\pagebreak
-
-This is a screen shot of the 10 HTML files downloaded from crawled pages:
-
-\begin{figure}[h]
-\caption{Pages downloaded by crawler.py}
-\centering
-\includegraphics[scale=0.7]{Q5/files.png}
-\end{figure}
 
 \begin{thebibliography}{9}
 

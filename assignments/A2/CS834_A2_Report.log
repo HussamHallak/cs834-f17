@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.21)  12 OCT 2017 07:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.21)  18 OCT 2017 01:24
 entering extended mode
 **./CS834_A2_Report.tex
 (CS834_A2_Report.tex
@@ -378,72 +378,61 @@ Package pdftex.def Info: images/Q1/DieselMemoryBing.png used on input line 141.
 
 (pdftex.def)             Requested size: 384.52982pt x 305.63646pt.
  [7 <./images/Q1/DieselMemoryBing.png>]
-[8]
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ú in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ù in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ú in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ù in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ¢ in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ¢ in font cmr10!
- [9] ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+[8] ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-Overfull \hbox (6.0pt too wide) in paragraph at lines 319--319
+Overfull \hbox (6.0pt too wide) in paragraph at lines 283--283
 [][][][][][][] 
  []
 
-(Q5/crawler.py [10]) <images/Q5/crawler.png, id=46, 499.11469pt x 543.53062pt>
-File: images/Q5/crawler.png Graphic file (type png)
+(Q2/PKstem.py [9]) [10]
+<images/Q2/PKstem.png, id=46, 488.57532pt x 761.09344pt>
+File: images/Q2/PKstem.png Graphic file (type png)
 
-<use images/Q5/crawler.png>
-Package pdftex.def Info: images/Q5/crawler.png used on input line 328.
-(pdftex.def)             Requested size: 349.37788pt x 380.46883pt.
+<use images/Q2/PKstem.png>
+Package pdftex.def Info: images/Q2/PKstem.png used on input line 336.
+(pdftex.def)             Requested size: 312.68713pt x 487.09814pt.
+ [11 <./images/Q2/PKstem.png>]
+Underfull \vbox (badness 10000) detected at line 367
+ []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[11] <images/Q5/files.png, id=50, 499.8675pt x 448.67625pt>
-File: images/Q5/files.png Graphic file (type png)
-
-<use images/Q5/files.png>
-Package pdftex.def Info: images/Q5/files.png used on input line 338.
-(pdftex.def)             Requested size: 349.90486pt x 314.07123pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 359--360
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ¢ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ¢ in font cmr10!
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 442--443
 []\OT1/cmr/m/n/10.95 https://stackoverflow.com/questions/6526181/write-a-progra
 m-that-takes-text-as-
  []
 
-[12 <./images/Q5/crawler.png>] [13 <./images/Q5/files.png>]
-(CS834_A2_Report.aux)
+[13] (CS834_A2_Report.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5629 strings out of 493323
- 84118 string characters out of 3139051
- 263244 words of memory out of 3000000
- 9094 multiletter control sequences out of 15000+200000
+ 5605 strings out of 493323
+ 83764 string characters out of 3139051
+ 260244 words of memory out of 3000000
+ 9071 multiletter control sequences out of 15000+200000
  8065 words of font info for 29 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,8n,43p,565b,1680s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,8n,43p,565b,1678s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKT
@@ -451,9 +440,9 @@ eX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fo
 nts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
 /public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
 amsfonts/cm/cmtt10.pfb>
-Output written on CS834_A2_Report.pdf (13 pages, 1510415 bytes).
+Output written on CS834_A2_Report.pdf (13 pages, 1481513 bytes).
 PDF statistics:
- 81 PDF objects out of 1000 (max. 8388607)
+ 80 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
