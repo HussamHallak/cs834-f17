@@ -278,7 +278,7 @@ Baba\_Budan\_67b5.html
 
 Babs\_Fafunwa\_5f48.html
 
-I wrote a simple python script PKstem.py to process the documents, stem the unique words in them, using Porter and Krovetz stemmers. The stemmers were not implemented from scratch because there are python libraries for both stemmers already.
+I wrote a simple python script ``PKstem.py'' to process the documents, stem the unique words in them, using Porter and Krovetz stemmers. The stemmers were not implemented from scratch because there are python libraries for both stemmers already.
 
 \lstinputlisting[language=Python, breakatwhitespace=〈false), label=The content of PKstem.py, caption= The content of PKstem.py]{Q2/PKstem.py}
 
@@ -342,7 +342,7 @@ I found the following examples of differences in the stemming that could have an
 
 \begin{longtable}{ |p{3cm}|p{3cm}|p{3cm}| } 
 \hline
-Original Text & Porter Stem & Krovetz Stem \\
+Word & Porter Stem & Krovetz Stem \\
  \hline 
  daily & daili & daily \\
  \hline
@@ -375,7 +375,7 @@ Find the 10 Wikipedia documents with the most inlinks. Show the collection of an
 
 \section*{Answer:}
 
-In order to find the 10 Wikipedia documents with the most inlinks, I created a small python script ``inlinks.py'' that extracts all links found in Wikipedia documents from WikiSmall collection. I stored the links as a key-value pair, where file name is the key and the link is the value. After grouping the links by their target, I counted them and sorted the files by the number of inlinks to find first 10  Wikipedia documents with the most inlinks.
+In order to find the 10 Wikipedia documents with the most inlinks, I created a small python script ``inlinks.py'' that extracts all links found in Wikipedia documents from WikiSmall collection. I stored the links as a key-value pair, where file name is the key and the link is the value. After grouping the links by their ``href'' value, I counted them and sorted the files by the number of inlinks to find the top 10  Wikipedia documents with the most inlinks.
 
 \lstinputlisting[language=Python, breakatwhitespace=〈false), label=The content of inlinks.py, caption= The content of inlinks.py]{Q3/inlinks.py}
 
@@ -459,7 +459,7 @@ You can assume that each 2-bit input number is encoded separately.
 
 \subsection*{Answer:}
 
-We have 4 possible 2-bit numbers and 3 possible shorter bit sequences. Let's apply the pigeonhole principle, which states that if n items are put into m containers, with n > m, then at least one container must contain more than one item. This means that any mapping from 2-bit sequences to shorter sequences must have at least 2 sequences compressed to the same shorter sequence. Therefore, when trying to decompress this shorter sequence, mentioned above, it is impossible know which of the original 2-bit sequences it was compressed from.
+We have 4 possible 2-bit numbers and 3 possible shorter bit sequences. Let's apply the pigeonhole principle, which states that if $n$ items are put into $m$ containers, with $n > m$, then at least one container must contain more than one item. This means that any mapping from 2-bit sequences to shorter sequences must have at least 2 sequences compressed to the same shorter sequence. Therefore, when trying to decompress this shorter sequence, mentioned above, it is impossible know which of the original 2-bit sequences it was compressed from.
 
 
 \begin{thebibliography}{9}
@@ -468,19 +468,10 @@ We have 4 possible 2-bit numbers and 3 possible shorter bit sequences. Let's app
 Stackoverflow. https://stackoverflow.com/questions/tagged/python.
 
 \bibitem{} 
-Sergey Brin and Larry Page. Google search engine. http://google.stanford.edu.
+https://stackoverflow.com/questions/10369393/need-a-python-module-for-stemming-of-text-documents
 
 \bibitem{}
-http://www.dba-oracle.com/oracle\_news/news\_ebay\_massive\_oracle.htm
-
-\bibitem{}
-https://www.wired.com/2012/01/amazon-dynamodb/
-
-\bibitem{}
-https://www.youtube.com/watch?v=a0OvgTfF8Pg
-
-\bibitem{}
-https://stackoverflow.com/questions/6526181/write-a-program-that-takes-text-as-input-and-produces-a-program-that-reproduces/6526266\#6526266
+https://www.rosettacode.org/wiki/Inverted\_index#Simple\_inverted\_index
 
 \bibitem{}
 https://en.wikipedia.org/wiki/Pigeonhole\_principle
