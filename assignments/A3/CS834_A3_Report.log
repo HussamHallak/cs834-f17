@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.21)  6 NOV 2017 08:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.21)  7 NOV 2017 05:46
 entering extended mode
 **./CS834_A3_Report.tex
 (CS834_A3_Report.tex
@@ -333,12 +333,12 @@ Underfull \vbox (badness 10000) detected at line 350
  []
 
 [8] [9]
-Underfull \hbox (badness 10000) in paragraph at lines 465--466
+Underfull \hbox (badness 10000) in paragraph at lines 476--477
 []\OT1/cmr/m/n/10.95 https://stackoverflow.com/questions/10369393/need-a-python
 -module-for-stemming-
  []
 
-[10] (CS834_A3_Report.aux)
+[10] [11] (CS834_A3_Report.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -359,9 +359,9 @@ nts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
 /public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
 amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmtt10.pfb>
-Output written on CS834_A3_Report.pdf (10 pages, 124307 bytes).
+Output written on CS834_A3_Report.pdf (11 pages, 125044 bytes).
 PDF statistics:
- 67 PDF objects out of 1000 (max. 8388607)
+ 70 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
