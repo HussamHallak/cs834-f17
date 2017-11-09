@@ -1,0 +1,81 @@
+\section*{Question 2:}
+Exercise 6.4:
+
+Assuming you had a gazetteer of place names available, sketch out an algorithm for detecting place names or locations in queries. Show examples of the types of queries where your algorithm would succeed and where it would fail.
+
+\section*{Answer:}
+
+The easiest way to detect place names or locations in a query is to tokenize the query and run all tokens against the place names dictionary, gazetteer. This method would be computationally expensive if the gazetteer has a large number of place names. It will sometimes fail, generate some false positives. For example:
+
+Query: Virginia Woolf
+
+The term ``Virginia'' will be falsely identified as a place name, but the user meant Virginia Woolf, the writer.
+
+A better, less expensive, algorithm can be implemented by defining patterns that will help detecting place names. These patterns can be defined using prepositions or other words that are used with places in English language. Examples of these prepositions and words include: From, in, near, to, of, ...etc.
+
+Pattern: $* + ('in' || 'from' || 'near' || 'to' || 'of' ) + <place name>$
+
+Example queries:
+
+Celebrities born in Virginia
+
+When did MalcomX go to Egypt
+
+Universities in Hampton
+
+Homes for sale near Suffolk  
+
+Is Michael Nelson from Norfolk
+
+Does Syria lie north of Jordan?
+
+The approach would begin by scanning the query to find these words or prepositions from, in, to, ...etc. If one of the words is detected, only the following word is run through the gazetteer. This method will sometimes fail, generate some false positives as well as false negatives. 
+
+False positive example:
+
+Query: A recipe for a pie made out of avocado
+
+The term ``avocado'' will be falsely detected as a place name, Avocado, California. However, the user meant avocado, the fruit.
+
+False negative example:
+
+Query: Where is Avocado located in California?
+
+Unless the defined patterns are advanced enough to detect place names in such queries, ``Avocado'', the place in California will not be detected.
+
+Assuming that the defined patterns are advanced enough to identify all possible place names, practically impossible, a large amount of False positives will be generated.
+
+Pattern: $<place name> + location$
+
+Query 1: Washington location on the map
+
+Query 2: George Washington location of birth
+
+In query 1, the term ``Washington'' will be detected as a place name, which is true. However, the same term ``Washington'' in query 2 will also be identified as a place name, which is false.
+
+Also using patterns will have to be accompanied with a rule to handle single term queries. This will also generate a large number of false positives. For example:
+
+Query: Lincoln
+
+The term ``Lincoln'' will be identified as the place name Lincoln in Alabama, while the user's intention was to look up Lincoln, the president or Lincoln, the car or Lincoln, the welding machine.
+
+One more rule must be added to the patterns to handle place names that are not a single terms. Examples include place names like ``Virginia Beach'', ``Newport News'', ``Washington DC'', ...etc.
+
+Example:
+
+Pattern: $* + ('in' || 'from' || 'near' || 'to' || 'of' ) + <place name>$
+
+Query: Hospitals in San Francisco
+
+A rule to handle queries similar to the query above must be added. The first word of each place name that is n-gram where $n > 1$ must be added to the gazetteer and then mapped to the next term in the place name.
+
+Here is my simple algorithm/implementation to detect place names in python-like code:
+
+
+Success example:
+
+Query: Schools in Norfolk
+
+Failure example:
+
+Query: Casinos in Las Vegas
