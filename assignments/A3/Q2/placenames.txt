@@ -1,6 +1,5 @@
-function gazetteerLookup(term)
+def gazetteerLookup(term):
 	placeNames = []
-	//fill the array placeNames with placeNames
 	placeNames.append('Norfolk')
 	placeNames.append('Suffolk')
 	placeNames.append('Chesapeake')
@@ -12,7 +11,7 @@ function gazetteerLookup(term)
 	else:
 		return False
 	
-function getPlaceNames(query):
+def getPlaceNames(query):
 	result = []
 	tokens = query.split()
 	preps = ['in', 'from', 'near', 'to', 'of']

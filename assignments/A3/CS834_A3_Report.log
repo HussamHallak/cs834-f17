@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.11.8)  10 NOV 2017 02:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.11.8)  10 NOV 2017 03:42
 entering extended mode
 **./CS834_A3_Report.tex
 (CS834_A3_Report.tex
@@ -439,8 +439,14 @@ Package hyperref Info: Option `breaklinks' set `true' on input line 82.
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
 
-(CS834_A3_Report.aux (Q1/Q1.aux) (Q2/Q2.aux) (Q3/Q3.aux) (Q4/Q4.aux) (Q5/Q5.aux
-) (Q6/Q6.aux) (Q7/Q7.aux) (Q8/Q8.aux)
+(CS834_A3_Report.aux (Q1/Q1.aux) (Q2/Q2.aux
+
+LaTeX Warning: Label `The content of inlinks.py' multiply defined.
+
+) (Q3/Q3.aux) (Q4/Q4.aux) (Q5/Q5.aux) (Q6/Q6.aux) (Q7/Q7.aux) (Q8/Q8.aux)
+
+LaTeX Warning: Label `' multiply defined.
+
 
 LaTeX Warning: Label `' multiply defined.
 
@@ -568,37 +574,57 @@ Package caption Info: End \AtBeginDocument code.
  [2]
 \openout2 = `Q1/Q1.aux'.
 
- (Q1/Q1.tex) [3
+ (Q1/Q1.tex
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 22.
+ (Q1/correct.py
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 7.
 
-]
-\openout2 = `Q2/Q2.aux'.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+) [3
 
- (Q2/Q2.tex
-[4
-
-
-]) [5]
-\openout2 = `Q3/Q3.aux'.
-
- (Q3/Q3.tex
-Overfull \hbox (244.74203pt too wide) in paragraph at lines 11--12
-[]\T1/cmr/m/n/10.95 https://github.com/jjfiv/galago-git/blob/master/core/src/ma
-in/java/org/lemurproject/galago/core/index/corpus/SnippetGenerator.java 
+])
+Overfull \hbox (6.0pt too wide) in paragraph at lines 22--22
+[][][][][][][] 
  []
 
-) [6
+<images/Q1/1.png, id=92, 499.26524pt x 276.43275pt>
+File: images/Q1/1.png Graphic file (type png)
+ <use images/Q1/1.png>
+Package pdftex.def Info: images/Q1/1.png used on input line 27.
+(pdftex.def)             Requested size: 399.41273pt x 221.14648pt.
+)
+[4 <./images/Q1/1.png>]
+\openout2 = `Q2/Q2.aux'.
+
+ (Q2/Q2.tex [5
+
+
+] (Q2/placenames.txt)
+Overfull \hbox (6.0pt too wide) in paragraph at lines 74--74
+[][][][][][][] 
+ []
+
+) [6]
+\openout2 = `Q3/Q3.aux'.
+
+ (Q3/Q3.tex) [7
 
 
 ]
 \openout2 = `Q4/Q4.aux'.
 
- (Q4/Q4.tex <images/Q4/1.png, id=64, 770.88pt x 481.8pt>
+ (Q4/Q4.tex <images/Q4/1.png, id=168, 770.88pt x 481.8pt>
 File: images/Q4/1.png Graphic file (type png)
 
 <use images/Q4/1.png>
 Package pdftex.def Info: images/Q4/1.png used on input line 13.
 (pdftex.def)             Requested size: 416.26901pt x 260.16812pt.
- <images/Q4/2.png, id=66, 770.88pt x 481.8pt>
+ <images/Q4/2.png, id=169, 770.88pt x 481.8pt>
 File: images/Q4/2.png Graphic file (type png)
 
 <use images/Q4/2.png>
@@ -608,7 +634,7 @@ Package pdftex.def Info: images/Q4/2.png used on input line 19.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/Q4/3.png, id=67, 770.88pt x 481.8pt>
+<images/Q4/3.png, id=170, 770.88pt x 481.8pt>
 File: images/Q4/3.png Graphic file (type png)
  <use images/Q4/3.png>
 Package pdftex.def Info: images/Q4/3.png used on input line 25.
@@ -617,7 +643,7 @@ Package pdftex.def Info: images/Q4/3.png used on input line 25.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/Q4/4.png, id=68, 770.88pt x 481.8pt>
+<images/Q4/4.png, id=171, 770.88pt x 481.8pt>
 File: images/Q4/4.png Graphic file (type png)
  <use images/Q4/4.png>
 Package pdftex.def Info: images/Q4/4.png used on input line 31.
@@ -626,7 +652,7 @@ Package pdftex.def Info: images/Q4/4.png used on input line 31.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/Q4/5.png, id=69, 770.88pt x 481.8pt>
+<images/Q4/5.png, id=172, 770.88pt x 481.8pt>
 File: images/Q4/5.png Graphic file (type png)
  <use images/Q4/5.png>
 Package pdftex.def Info: images/Q4/5.png used on input line 37.
@@ -635,41 +661,41 @@ Package pdftex.def Info: images/Q4/5.png used on input line 37.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [7
+) [8
 
 
- <./images/Q4/1.png>] [8 <./images/Q4/2.png>] [9 <./images/Q4/3.png> <./images/
-Q4/4.png>] [10 <./images/Q4/5.png>]
+ <./images/Q4/1.png>] [9 <./images/Q4/2.png>] [10 <./images/Q4/3.png> <./images
+/Q4/4.png>] [11 <./images/Q4/5.png>]
 \openout2 = `Q5/Q5.aux'.
 
  (Q5/Q5.tex
-<images/Q5/cosine.png, id=94, 728.7225pt x 703.62875pt>
+<images/Q5/cosine.png, id=196, 728.7225pt x 703.62875pt>
 File: images/Q5/cosine.png Graphic file (type png)
 
 <use images/Q5/cosine.png>
 Package pdftex.def Info: images/Q5/cosine.png used on input line 27.
 (pdftex.def)             Requested size: 291.48383pt x 281.4465pt.
- [11
+ [12
 
 
  <./images/Q5/cosine.png>]
-<images/Q5/cosinesimilarity.jpg, id=103, 326.21875pt x 256.96pt>
+<images/Q5/cosinesimilarity.jpg, id=205, 326.21875pt x 256.96pt>
 File: images/Q5/cosinesimilarity.jpg Graphic file (type jpg)
 
 <use images/Q5/cosinesimilarity.jpg>
 Package pdftex.def Info: images/Q5/cosinesimilarity.jpg used on input line 36.
 (pdftex.def)             Requested size: 228.35156pt x 179.87076pt.
 
-<images/Q5/graph_cot_pi.png, id=104, 293.898pt x 175.857pt>
+<images/Q5/graph_cot_pi.png, id=206, 293.898pt x 175.857pt>
 File: images/Q5/graph_cot_pi.png Graphic file (type png)
 
 <use images/Q5/graph_cot_pi.png>
 Package pdftex.def Info: images/Q5/graph_cot_pi.png used on input line 44.
 (pdftex.def)             Requested size: 323.28877pt x 193.44328pt.
- [12 <./images/Q5/cosinesimilarity.jpg> <./images/Q5/graph_cot_pi.png>]) [13]
+ [13 <./images/Q5/cosinesimilarity.jpg> <./images/Q5/graph_cot_pi.png>]) [14]
 \openout2 = `Q6/Q6.aux'.
 
- (Q6/Q6.tex) [14
+ (Q6/Q6.tex) [15
 
 
 ]
@@ -690,81 +716,83 @@ inia\OT1/cmr/m/n/10.95 )\OML/cmm/m/it/10.95 P\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/
 $ 
  []
 
-) [15
+) [16
 
 
 ]
 \openout2 = `Q8/Q8.aux'.
 
- (Q8/Q8.tex) [16
+ (Q8/Q8.tex) [17
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 116--117
-[]\T1/cmr/m/n/10.95 https://stackoverflow.com/questions/10369393/need-a-python-
-module-for-stemming-
- []
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 128.
-[17
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 132.
+ [18
 
 pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has b
 een already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.128 \end{document}
+l.132 \end{document}
                     pdfTeX warning (ext4): destination with the same identifier
  (name{cite.}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.128 \end{document}
+l.132 \end{document}
                     pdfTeX warning (ext4): destination with the same identifier
  (name{cite.}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.128 \end{document}
+l.132 \end{document}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{cite.}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.132 \end{document}
                     ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 128.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 132.
  (CS834_A3_Report.aux (Q1/Q1.aux) (Q2/Q2.aux) (Q3/Q3.aux)
 (Q4/Q4.aux) (Q5/Q5.aux) (Q6/Q6.aux) (Q7/Q7.aux) (Q8/Q8.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 128.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 128.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 132.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 132.
 Package rerunfilecheck Info: File `CS834_A3_Report.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 128.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 132.
  ) 
 Here is how much of TeX's memory you used:
- 11314 strings out of 493323
- 167201 string characters out of 3139063
- 314560 words of memory out of 3000000
- 14587 multiletter control sequences out of 15000+200000
- 14357 words of font info for 38 fonts, out of 3000000 for 9000
+ 11624 strings out of 493323
+ 171287 string characters out of 3139063
+ 500560 words of memory out of 3000000
+ 14789 multiletter control sequences out of 15000+200000
+ 14670 words of font info for 39 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,7n,41p,922b,1004s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,7n,45p,922b,1930s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Hussam\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
-\ecrm0800.pk> <C:\Users\Hussam\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappe
-n\ec\dpi600\ecbx1095.pk> <C:\Users\Hussam\AppData\Local\MiKTeX\2.9\fonts\pk\ljf
-our\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\Hussam\AppData\Local\MiKTeX\2.9\f
-onts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\Hussam\AppData\Local\M
-iKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk> <C:\Users\Hussam\AppD
-ata\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\
-Hussam\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1728.pk>
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Prog
-ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
-lic/amsfonts/cm/cmsy8.pfb>
-Output written on CS834_A3_Report.pdf (17 pages, 1438617 bytes).
+\ectt0800.pk> <C:\Users\Hussam\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappe
+n\ec\dpi600\ecrm0800.pk> <C:\Users\Hussam\AppData\Local\MiKTeX\2.9\fonts\pk\ljf
+our\jknappen\ec\dpi600\ecbx1095.pk> <C:\Users\Hussam\AppData\Local\MiKTeX\2.9\f
+onts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\Hussam\AppData\Local\M
+iKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\Hussam\AppD
+ata\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk> <C:\Users\
+Hussam\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk>
+ <C:\Users\Hussam\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\e
+crm1728.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.p
+fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on CS834_A3_Report.pdf (18 pages, 1579037 bytes).
 PDF statistics:
- 443 PDF objects out of 1000 (max. 8388607)
- 49 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 646 PDF objects out of 1000 (max. 8388607)
+ 142 named destinations out of 1000 (max. 500000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 

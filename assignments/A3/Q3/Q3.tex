@@ -6,15 +6,14 @@ Describe the snippet generation algorithm in Galago. Would this algorithm work w
 
 \textbf{Approach:}
 
-I found the snippet generation code for Galago in Github. The file SnippetGenerator.java can be downloaded from this link:
-
-https://github.com/jjfiv/galago-git/blob/master/core/src/main/java/org/lemurproject/galago/core/index/corpus/SnippetGenerator.java
+I found the snippet generation code for Galago in Github. The file ``SnippetGenerator.java'' can be downloaded 
+\href{https://github.com/jjfiv/galago-git/blob/master/core/src/main/java/org/lemurproject/galago/core/index/corpus/SnippetGenerator.java}{here}. 
 
 Galago's snippet generation algorithm is rather simple. It can be summarized by the following steps:
 
 1. Find words in the returned document that match the query words.
 
-2. Divide the document into regions where the matching words were found by going including the five words before the matching word and the five words after it.
+2. Divide the document into regions where the matching words were found including the five words before the matching word and the five words after it.
 
 3. Merge overlapped regions.
 
