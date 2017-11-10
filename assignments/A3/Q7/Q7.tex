@@ -1,4 +1,46 @@
 \section*{Question 7:}
-MLN1: Using the small wikipedia example, choose 10 words and create stem classes as per the algorithm on pp. 191-192.
+Exercise 7.7: 
+
+What is the ``bucket'' analogy for a bigram language model? Give examples.
 
 \subsection*{Answer:}
+
+I want to build the definition of bigram, two terms, language model by explaining few concepts then giving some examples:
+ 
+\textbf{Language Model:}
+
+A topic in a document or query can be represented as a language model. Words that tend to occur often when discussing a topic will have high probabilities in the corresponding language model. If I have a document that consists of 1000 words, and 50 of them are ``coffee'', then the document is most likely to be about coffee. The word coffee has a high probability unless the corpus has 25,000,000 documents and the word ``coffee'' is in most of them, stop word.
+
+\textbf{Unigram Language Model:}
+
+It is the probability distribution over the words in a language. The generation of text consists of pulling words out of a “bucket” according to the probability distribution and replacing them. In this model, the probability of each word only depends on that word's own probability in the document. It splits the probabilities of different terms in a context, e.g., from
+
+$P(t_1 t_2 t_3) = P(t_1) P(t_2|t_1) P(t_3|t_1 t_2)$
+
+to
+
+$P_{uni}(t_1 t_2 t_3) = P(t_1) P(t_2) P(t_3)$
+
+ 
+
+\textbf{Bigram Language Model:}
+
+Some applications use bigram language model where probabilities depend
+on the previous word. It is assumed that the probability of observing the word $w_2$ in the context history of the preceding word can be approximated by the probability of observing it in the shortened context history of the preceding word. 
+
+\textbf{Example:}
+
+In a bigram language model, the probability of the sentence ``I lived in Virginia Beach'' is approximated as:
+
+$P_{bi}(I, lived, in, Virginia, Beach) \approx $
+
+
+$P(I|<s>) P(lived | I) P(in | lived) P(Virginia | in) P(Beach | Virginia) P(</s>|Beach)$
+
+Where:
+
+$<s>$ denotes the beginning of the sentence.
+
+$</s>$ denotes the end of the sentence.
+
+In this example, the probability of the word ``Beach'' being pulled out of the ``bucket'' given that the previous word is ``Virginia'' is higher than its probability in a unigram language model where context is not considered.

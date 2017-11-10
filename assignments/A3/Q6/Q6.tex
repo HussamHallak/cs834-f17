@@ -1,6 +1,17 @@
 \section*{Question 6:}
-Exercise 7.7: 
+Exercise 7.5: 
 
-What is the ``bucket'' analogy for a bigram language model? Give examples.
+Implement a BM25 module for Galago. Show that it works and document
+it.
 
 \subsection*{Answer:}
+
+I wrote the code for BM25 in Java since that is the language in which Galago is written. The file is named ``BM25.java''. Some variables should be passed as arguments, but for the purpose of demonstration, I manually set them within the class BM25. Here is the code I wrote:
+
+
+
+I downloaded the source code for Galago. BM25 is already implemented in the file ``BM25Scorer.java''. I noticed that IDF is calculated using a different formula. Here is the formula used in their implementation:
+
+\begin{lstlisting}
+idf = Math.log(documentCount / (df + 0.5)); 
+\end{lstlisting}

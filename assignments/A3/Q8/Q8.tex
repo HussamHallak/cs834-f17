@@ -1,4 +1,12 @@
 \section*{Question 8:}
-MLN2: Using the small wikipedia example, choose 10 words and compute MIM, EMIM, chi square, dice association measures for full document \& 5 word windows (cf. pp. 203-205)
+Exercise 7.8: Using the Galago implementation of query likelihood, study the impact of short queries and long queries on effectiveness. Do the parameter settings make a difference?
 
 \subsection*{Answer:}
+
+After doing some search for Galago query likelihood, I was able to find some useful information on the wiki pages for Galago on Sourceforge.
+
+Galago uses Latent Dirichlet allocation model, LDA, which is a way of automatically discovering topics that queries belong to. 
+
+The impact of short queries and long queries is that short queries can be difficult to find out which topics they contain because of their ambiguity due to being short.
+
+Long queries should not cause a problem as they will have enough terms to determine which topics they contain.

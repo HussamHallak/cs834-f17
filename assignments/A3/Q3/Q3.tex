@@ -1,6 +1,35 @@
 \section*{Question 3:}
-Exercise 6.9:
+Exercise 6.5:
+Describe the snippet generation algorithm in Galago. Would this algorithm work well for pages with little text content? Describe in detail how you would modify the algorithm to improve it. .
 
-Give five examples of web page translation that you think is poor. Why do you think the translation failed?
+\subsection*{Answer:}
 
-\section*{Answer:}
+\textbf{Approach:}
+
+I found the snippet generation code for Galago in Github. The file SnippetGenerator.java can be downloaded from this link:
+
+https://github.com/jjfiv/galago-git/blob/master/core/src/main/java/org/lemurproject/galago/core/index/corpus/SnippetGenerator.java
+
+Galago's snippet generation algorithm is rather simple. It can be summarized by the following steps:
+
+1. Find words in the returned document that match the query words.
+
+2. Divide the document into regions where the matching words were found by going including the five words before the matching word and the five words after it.
+
+3. Merge overlapped regions.
+
+4. Generate the snippet from these regions when the threshold for the snippet size is reached. 
+
+I noticed that the file actually has the code for generating multiple snippets, scoring them, then returning the snippet with the highest score. However, the comment above the code stated that this method is too slow to be useful.
+
+Galago's snippet generation algorithm will work well for pages with little text content as long as query terms has exact matches in the document. The problem starts when no matches are found!
+
+\textbf{Possible improvements:}
+
+1. Performing query expansion before searching for matches. Query expansion can be performed using terms from other returned documents.
+
+2. Stemming the query terms and looking for words that share the same stems in the document.
+
+3. If no matches were found in a small document, summarize the document and return the summary. Significant Terms could be utilized to generate a summary of the returned document.
+
+
