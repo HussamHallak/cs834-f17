@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.11.8)  9 NOV 2017 19:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.11.8)  9 NOV 2017 21:18
 entering extended mode
 **./CS834_A3_Report.tex
 (CS834_A3_Report.tex
@@ -663,14 +663,28 @@ Package pdftex.def Info: images/Q4/graph_cot_pi.png used on input line 44.
 ]
 \openout2 = `Q6/Q6.aux'.
 
- (Q6/Q6.tex) [14
+ (Q6/Q6.tex
+Overfull \hbox (6.75995pt too wide) in paragraph at lines 38--39
+[]$\OML/cmm/m/it/10.95 P\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 I\OMS/cmsy/m/n/
+10.95 j \OML/cmm/m/it/10.95 < s >\OT1/cmr/m/n/10.95 )\OML/cmm/m/it/10.95 P\OT1/
+cmr/m/n/10.95 (\OML/cmm/m/it/10.95 lived\OMS/cmsy/m/n/10.95 j\OML/cmm/m/it/10.9
+5 I\OT1/cmr/m/n/10.95 )\OML/cmm/m/it/10.95 P\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/1
+0.95 in\OMS/cmsy/m/n/10.95 j\OML/cmm/m/it/10.95 lived\OT1/cmr/m/n/10.95 )\OML/c
+mm/m/it/10.95 P\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 Virginia\OMS/cmsy/m/n/10
+.95 j\OML/cmm/m/it/10.95 in\OT1/cmr/m/n/10.95 )\OML/cmm/m/it/10.95 P\OT1/cmr/m/
+n/10.95 (\OML/cmm/m/it/10.95 Beach\OMS/cmsy/m/n/10.95 j\OML/cmm/m/it/10.95 Virg
+inia\OT1/cmr/m/n/10.95 )\OML/cmm/m/it/10.95 P\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/
+10.95 < =s > \OMS/cmsy/m/n/10.95 j\OML/cmm/m/it/10.95 Beach\OT1/cmr/m/n/10.95 )
+$ 
+ []
+
+) [14
 
 
 ]
 \openout2 = `Q7/Q7.aux'.
 
- (Q7/Q7.tex)
-[15
+ (Q7/Q7.tex) [15
 
 
 ]
@@ -742,9 +756,9 @@ ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files
 .9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
 ype1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
 lic/amsfonts/cm/cmsy8.pfb>
-Output written on CS834_A3_Report.pdf (17 pages, 1428744 bytes).
+Output written on CS834_A3_Report.pdf (17 pages, 1435700 bytes).
 PDF statistics:
- 431 PDF objects out of 1000 (max. 8388607)
+ 439 PDF objects out of 1000 (max. 8388607)
  49 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
