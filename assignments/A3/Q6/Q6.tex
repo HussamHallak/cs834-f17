@@ -8,10 +8,28 @@ it.
 
 I wrote the code for BM25 in Java since that is the language in which Galago is written. The file is named ``BM25.java''. Some variables should be passed as arguments, but for the purpose of demonstration, I manually set them within the class BM25. Here is the code I wrote:
 
-
+\lstinputlisting[language=Java, breakatwhitespace=〈false), label=The content of BM25.java, caption= The content of BM25.java]{Q6/BM25.java}
 
 I downloaded the source code for Galago. BM25 is already implemented in the file ``BM25Scorer.java''. I noticed that IDF is calculated using a different formula. Here is the formula used in their implementation:
 
+$idf = Math.log(documentCount / (df + 0.5));$
+
+Below is the code snippet for the constructor method BM25Scorer found in the source file ``BM25Scorer.java''.
+
 \begin{lstlisting}
-idf = Math.log(documentCount / (df + 0.5)); 
+  public BM25Scorer(NodeParameters parameters) throws IOException {
+    b = parameters.get("b", 0.75);
+    k = parameters.get("k", 1.2);
+
+    double collectionLength = parameters.getLong("collectionLength");
+    documentCount = parameters.getLong("documentCount");
+    avgDocLength = (collectionLength + 0.0) / (documentCount + 0.0);
+
+    // now get idf
+    long df = parameters.getLong("nodeDocumentCount");
+    // I'm not convinced this is the correct idf formulation -- MAC
+    //idf = Math.log((documentCount - df + 0.5) / (df + 0.5));
+    
+    idf = Math.log(documentCount / (df + 0.5));
+  }
 \end{lstlisting}
