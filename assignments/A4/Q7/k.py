@@ -5,8 +5,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 if len(sys.argv) != 2:
-    print "Usage: python sk.py <K value>"
-    print "Example: python sk.py 3"
+    print "Usage: python k.py <K value>"
+    print "Example: python k.py 3"
     exit()
 
  
@@ -30,8 +30,7 @@ markers = ['o', 'v', 's', 'h']
  
 # KMeans algorithm 
 K = int(sys.argv[1])
-from spherecluster import SphericalKMeans
-kmeans_model = SphericalKMeans(n_clusters=K).fit(X)
+kmeans_model = KMeans(n_clusters=K).fit(X)
  
 plt.plot()
 for i, l in enumerate(kmeans_model.labels_):

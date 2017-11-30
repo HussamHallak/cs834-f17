@@ -1,0 +1,207 @@
+\section*{Question 4:}
+Exercise 8.7: 
+Another measure that has been used in number of evaluations is R-precision. This is defined as the precision at R documents, where R is the number of relevant documents for a query. It is used in situations where there is a large variation in the number of relevant documents per query. Calculate the average R-precision for the CACM query set and compare it to the other measures.
+
+\subsection*{Answer:}
+
+I found the number of relevant documents for each query from the relevance judgment file using the ``grep'' command.
+\begin{lstlisting}[breakatwhitespace=〈false)]
+hussam@hussam-HP-Compaq-nc8430-GE542UP-ABA:~/Desktop/galago/galago-bin/bin$ cat cacm.rel | grep "^1 Q0" | wc -l
+5
+\end{lstlisting}
+I repeated the command for all 64 queries. The following table contains the number of relevant documents for each query.
+
+\begin{longtable}{ |p{3cm}|p{6cm}| } 
+\hline
+Query Number & Number of relevant documents \\
+\hline
+1 & 5 \\
+\hline
+2 & 3 \\
+\hline
+3 & 6 \\
+\hline
+4 & 12 \\
+\hline
+5 & 8 \\
+\hline
+6 & 3 \\
+\hline
+7 & 28 \\
+\hline
+8 & 3 \\
+\hline
+9 & 9 \\
+\hline
+10 & 35 \\
+\hline
+11 & 19 \\
+\hline
+12 & 5 \\
+\hline
+13 & 11 \\
+\hline
+14 & 44 \\
+\hline
+15 & 10 \\
+\hline
+16 & 17 \\
+\hline
+17 & 16 \\
+\hline
+18 & 11 \\
+\hline
+19 & 11 \\
+\hline
+20 & 3 \\
+\hline
+21 & 11 \\
+\hline
+22 & 17 \\
+\hline
+23 & 4 \\
+\hline
+24 & 13 \\
+\hline
+25 & 51 \\
+\hline
+26 & 30 \\
+\hline
+27 & 29 \\
+\hline
+28 & 5 \\
+\hline
+29 & 19 \\
+\hline
+30 & 4 \\
+\hline
+31 & 2 \\
+\hline
+32 & 3 \\
+\hline
+33 & 1 \\
+\hline
+34 & 0 \\
+\hline
+35 & 0 \\
+\hline
+36 & 20 \\
+\hline
+37 & 12 \\
+\hline
+38 & 16 \\
+\hline
+39 & 12 \\
+\hline
+40 & 10 \\
+\hline
+41 & 0 \\
+\hline
+42 & 21 \\
+\hline
+43 & 41 \\
+\hline
+44 & 17 \\
+\hline
+45 & 26 \\
+\hline
+46 & 0 \\
+\hline
+47 & 0 \\
+\hline
+48 & 12 \\
+\hline
+49 & 8 \\
+\hline
+50 & 0 \\
+\hline
+51 & 0 \\
+\hline
+52 & 0 \\
+\hline
+53 & 0 \\
+\hline
+54 & 0 \\
+\hline
+55 & 0 \\
+\hline
+56 & 0 \\
+\hline
+57 & 1 \\
+\hline
+58 & 30 \\
+\hline
+59 & 43 \\
+\hline
+60 & 27 \\
+\hline
+61 & 31 \\
+\hline
+62 & 8 \\
+\hline
+63 & 12 \\
+\hline
+64 & 1 \\
+\hline
+\end{longtable}
+
+There is a large variation in the number of relevant documents per query. The minimum is 0 document, and the maximum is 51 document.
+
+I used the ``batch-search'' command in Galago to fetch 51 results for each query. 
+
+\begin{lstlisting}[breakatwhitespace=〈false)]
+hussam@hussam-HP-Compaq-nc8430-GE542UP-ABA:~/Desktop/galago/galago-bin/bin$ ./galago batch-search --index=index --requested=51 cacm.query.json > 87.out
+\end{lstlisting}
+The batch search was processed successfully and the result can be seen in the file named ``87.out'', however, I ran into a problem when I tried to evaluate it against the relevance judgment file ``cacm.rel''. The command ``eval'' is being executed properly and the values for the number of retrieved documents and the relevant documents is correct, but the number of retrieved relevant document is coming up as zero for all queries. This is making all values for different measures a zero. The R-Precision value, as well as other measures, according to Galago evaluation is zero for all queries which I know is not correct from questions 1 and 2 which I did by hand.
+
+\begin{lstlisting}[breakatwhitespace=〈false)]
+hussam@hussam-HP-Compaq-nc8430-GE542UP-ABA:~/Desktop/galago/galago-bin/bin$ ./galago eval --judgments=cacm.rel --baseline=87.out --details=true
+num_ret                      	64   51.00000
+num_rel                      	64	1.00000
+num_rel_ret                  	64	0.00000
+num_unjug_ret@20             	64   20.00000
+map                          	64	0.00000
+R-prec                       	64	0.00000
+bpref                        	64	0.00000
+recip_rank                   	64	0.00000
+ndcg                         	64	0.00000
+ndcg5                        	64	0.00000
+ndcg10                       	64	0.00000
+ndcg20                       	64	0.00000
+ERR                          	64	0.00000
+ERR10                        	64	0.00000
+ERR20                        	64	0.00000
+P5                           	64	0.00000
+P10                          	64	0.00000
+P15                          	64	0.00000
+P20                          	64	0.00000
+P30                          	64	0.00000
+P100                         	64	0.00000
+P200                         	64	0.00000
+P500                         	64	0.00000
+P1000                        	64	0.00000
+num_ret                     	all 2652.00000
+num_rel                     	all  796.00000
+num_rel_ret                 	all	0.00000
+num_unjug_ret@20            	all 1040.00000
+map                         	all	0.00000
+R-prec                      	all	0.00000
+bpref                       	all	0.00000
+recip_rank                  	all	0.00000
+ndcg                        	all	0.00000
+ndcg5                       	all	0.00000
+ndcg10                      	all	0.00000
+ndcg20                      	all	0.00000
+ERR                         	all	0.00000
+ERR10                       	all	0.00000
+ERR20                       	all	0.00000
+P5                          	all	0.00000
+P10                         	all	0.00000
+P15                         	all	0.00000
+P20                         	all	0.00000
+P30                         	all	0.00000
+P100                        	all	0.00000
+P200                        	all	0.00000
+P500                        	all	0.00000
+P1000                       	all	0.00000
+\end{lstlisting}

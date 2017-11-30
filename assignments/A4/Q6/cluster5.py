@@ -12,7 +12,7 @@ a = np.array([[-4, -2],
               [3, 4],
               [4, 3]])
 
-for method in ['single', 'complete', 'average', 'centroid', 'ward']:
+for method in ['single', 'complete', 'average', 'centroid', 'ward', 'weighted', 'median']:
 	z = hac.linkage(a, method=method)
 	z1 = hac.fcluster(z, 3, criterion='maxclust')
 	print 'Clustering Method: ', method

@@ -1,0 +1,54 @@
+\section*{Question 5:}
+Exercise 8.9:
+For one query in the CACM collection, generate a ranking and calculate BPREF. Show that the two formulations of BPREF give the same value.
+\subsection*{Answer:}
+
+I used query 13 that I used for question 2. The steps to find the first 10 results for the query and the relevant/non-relevant documents are identical to the steps in question 2.
+
+\textbf{Results for query \#13}:
+
+\begin{longtable}{ |p{1cm}|p{4cm}|p{3cm}| } 
+\hline
+Result & File Name & Hit/Miss \\
+\hline
+1 & CACM-2897.html & Hit \\
+\hline
+2 & CACM-2033.html & Miss \\
+\hline
+3 & CACM-1947.html & Hit \\
+\hline
+4 & CACM-2559.html & Miss \\
+\hline
+5 & CACM-2491.html & Miss \\
+\hline
+6 & CACM-2680.html & Miss \\
+\hline
+7 & CACM-2701.html & Miss \\
+\hline
+8 & CACM-1886.html & Miss \\
+\hline
+9 & CACM-2944.html & Miss  \\
+\hline
+10 & CACM-2537.html & Miss \\
+\hline
+\end{longtable}
+
+It's time to calculate BPREF by hand using the two definitions of BPREF:
+
+$$ BPREF = \frac{1}{R} \sum_{d_r} (1-\frac{{N_d}_r}{R}) $$
+
+And
+
+$$ BPREF = \frac{P}{P+Q} $$
+
+Where R is the number of relevant documents, $d_r$ is a relevant document, and ${N_d}_r$ gives the number of non-relevant documents (from the set of R non-relevant documents that are considered) that are ranked higher than $d_r$ 
+
+R = 2, therefore the number of non-relevant documents that are considered is 2. 
+
+$$ BPREF = \frac{1}{2} [(1-0/2) + (1-1/2)] = \frac{3}{4} = 0.75 $$
+
+Using the alternative definition:
+
+$$ BPREF = \frac{2}{2+1} = \frac{2}{3} = 0.67 $$
+
+I have different values at the end. I tried different definitions that I found online, but came up with results that are much different than this.

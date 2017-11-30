@@ -1,0 +1,168 @@
+\section*{Question 1:}
+Exercise 8.3: 
+
+For one query in the CACM collection (provided at the book website), generate a ranking using Galago, and then calculate average precision, NDCG at 5 and 10, precision at 10, and the reciprocal rank by hand.
+
+\subsection*{Answer:}
+
+I first built the index for the CACM collection using the ``build'' command in Galago.
+
+\begin{lstlisting}[breakatwhitespace=〈false)]
+hussam@hussam-HP-Compaq-nc8430-GE542UP-ABA:~/Desktop/galago/galago-bin/bin$ ./galago build --indexPath=/home/hussam/Desktop/galago/galago-bin/bin/index --inputPath=/home/hussam/Desktop/galago/galago-bin/bin/cacm --filetype=html
+\end{lstlisting} 
+
+I decided to run query \#12 "portable operating systems".
+
+I created the file named ``83.json'' and saved the query in it as directed by Galago ``batch-search'' command help.
+
+\lstinputlisting[language=XML, breakatwhitespace=〈false), label=The content of 83.json, caption= The content of 83.json]{Q1/83.json}
+
+I generated the ranking list using Galago from the command line:
+
+\begin{lstlisting}[breakatwhitespace=〈false)]
+hussam@hussam-HP-Compaq-nc8430-GE542UP-ABA:~/Desktop/galago/galago-bin/bin$ ./galago batch-search --index=/home/hussam/Desktop/galago/galago-bin/bin/index --requested=10 /home/hussam/Desktop/galago/galago-bin/bin/queries/83.json
+CACM-12 Q0 /home/hussam/Desktop/galago/galago-bin/bin/cacm/CACM-3127.html 1 -5.64732220 galago
+CACM-12 Q0 /home/hussam/Desktop/galago/galago-bin/bin/cacm/CACM-1930.html 2 -6.30066873 galago
+CACM-12 Q0 /home/hussam/Desktop/galago/galago-bin/bin/cacm/CACM-2246.html 3 -6.35308840 galago
+CACM-12 Q0 /home/hussam/Desktop/galago/galago-bin/bin/cacm/CACM-3196.html 4 -6.44900997 galago
+CACM-12 Q0 /home/hussam/Desktop/galago/galago-bin/bin/cacm/CACM-2593.html 5 -6.68985970 galago
+CACM-12 Q0 /home/hussam/Desktop/galago/galago-bin/bin/cacm/CACM-1591.html 6 -6.86473945 galago
+CACM-12 Q0 /home/hussam/Desktop/galago/galago-bin/bin/cacm/CACM-1680.html 7 -6.87638212 galago
+CACM-12 Q0 /home/hussam/Desktop/galago/galago-bin/bin/cacm/CACM-2740.html 8 -6.91784238 galago
+CACM-12 Q0 /home/hussam/Desktop/galago/galago-bin/bin/cacm/CACM-3068.html 9 -6.95520083 galago
+CACM-12 Q0 /home/hussam/Desktop/galago/galago-bin/bin/cacm/CACM-2319.html 10 -6.97755390 galago
+hussam@hussam-HP-Compaq-nc8430-GE542UP-ABA:~/Desktop/galago/galago-bin/bin$
+\end{lstlisting}
+
+To answer this question, I need to calculate the following values by hand:
+
+1. Average precision
+
+2. NDCG at 5 
+
+3. NDCG at 10 
+
+4. Precision at 10 
+
+5. Reciprocal rank 
+
+To get the average precision, we need to compute the precision for each relevant document that is retrieved, then take the average.
+
+Precision = Number of relevant documents/Number of retrieved documents
+
+When calculating the average precision, we only consider relevant documents.
+
+I downloaded the relevance judgment file ``cacm.rel''. The section for query 12 is:
+
+\begin{lstlisting}[breakatwhitespace=〈false)]
+12 Q0 CACM-1523 1
+12 Q0 CACM-2080 1
+12 Q0 CACM-2246 1
+12 Q0 CACM-2629 1
+12 Q0 CACM-3127 1
+\end{lstlisting}
+
+Therefore the number of relevant documents in the collection is 5. Each document in the result set can be identified as a ``Hit'' or ``Miss'':
+
+\begin{longtable}{ |p{1cm}|p{6cm}|p{6cm}| } 
+\hline
+Result & File Name & Hit/Miss \\
+\hline
+1 & CACM-3127.html & Hit \\
+\hline
+2 & CACM-1930.html & Miss \\
+\hline
+3 & CACM-2246.html & Hit \\
+\hline
+4 & CACM-3196.html & Miss \\
+\hline
+5 & CACM-2593.html & Miss \\
+\hline
+6 & CACM-1591.html & Miss \\
+\hline
+7 & CACM-1680.html & Miss \\
+\hline
+8 & CACM-2740.html & Miss \\
+\hline
+9 & CACM-3068.html & Miss \\
+\hline
+10 & CACM-2319.html & Miss \\
+\hline
+\end{longtable}
+
+
+The average precision can be calculated:
+
+Average Precision = (1+2/3)/2 = 0.83
+
+The reason that the average precision did not change is because there are no relevant documents returned after the third position. Again, When calculating average precision, only relevant documents are considered in the calculation. 
+
+\textbf{NDCG:}
+The approach for calculating NDCG can be summarized in the following steps:
+\begin{enumerate}
+\item Set a relevance level for each document. I used 1 if the document is relevant and 0 otherwise.
+\item Calculate the DCG using this formula: 
+$$
+DCG_p = rel_1 + \sum_{i=2}^p \frac{rel_i}{log_2i}
+$$
+where $p$ is the rank, $i$ is the rank for each document, and $rel\_i$ is the relevance level for each document. 
+\item Create perfect ranking (simpler with binary).
+\item Calculate the ideal DCG 
+\item Calculate NDCG using the formula:
+$$
+NDCG_p = \frac{ActualDCG_p}{IdealDCG_p}
+$$
+\end{enumerate}
+
+For our result set of 10 documents judged on a binary scale:
+
+1, 0, 1, 0, 0, 0, 0, 0, 0, 0
+
+Discounted gain:
+
+1, 0, 1/1.59, 0, 0, 0, 0, 0, 0, 0 = 1, 0, 0.63, 0, 0, 0, 0, 0, 0, 0
+
+Actual DCG values:
+
+1, 1, 1.63, 1.63, 1.63, 1.63, 1.63, 1.63, 1.63, 1.63
+
+DCG at rank 5 = 1.63
+
+DCG at rank 10 = 1.63
+
+Perfect Ranking:
+
+1, 1, 0, 0, 0, 0, 0, 0, 0, 0
+
+Discounted gain (for perfect ranking):
+
+1, 1, 0, 0, 0, 0, 0, 0, 0, 0
+
+Ideal DCG values:
+
+1, 2, 2, 2, 2, 2, 2, 2, 2, 2 
+
+NDCG = Actual DCG / Ideal DCG
+
+NDCG:
+
+1, 0.5, 0.82, 0.82, 0.82, 0.82, 0.82, 0.82, 0.82, 0.82
+
+NDCG at rank 5 = 0.82
+
+NDCG at rank 10 = 0.82
+
+\textbf{Precision at 10:}
+
+For our result set of 10 documents judged on a binary scale:
+
+1, 0, 1, 0, 0, 0, 0, 0, 0, 0
+
+Precision at each rank:
+
+1, 0.5, 0.67, 0.5, 0.4, 0.33, 0.29, 0.25, 0.22, 0.2
+
+Precision at 10 = 0.2
+
+
+The reciprocal rank is the reciprocal of the rank at which the first relevant document is retrieved. Since, the first relevant document retrieved at rank 1, the reciprocal rank is 1/1 = 1

@@ -1,0 +1,12 @@
+{
+ 	"queries" : [
+   	{
+     	"number" : "CACM-13",
+     	"text" : "#combine(code optimization for space efficiency)"
+   	},
+	{
+     	"number" : "CACM-27",
+     	"text" : "#combine(memory management aspects of operating systems)"
+	}
+	]
+  }

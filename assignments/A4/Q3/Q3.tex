@@ -1,0 +1,49 @@
+\section*{Question 3:}
+Exercise 8.5:
+Generate the mean average precision, recall-precision graph, average NDCG at 5 and 10, and precision at 10 for the entire CACM query set.
+\subsection*{Answer:}
+Galago can generate different measures for an entire set using the ``eval'' command. I am using the newer version of Galago, which only supports JSON files as input file of queries. Queries are available in two different formats, raw and processed. They are saved in ``cacm.query'' and ``cacm.query.xml'' on this page:
+
+http://www.search-engines-book.com/collections/
+
+I downloaded both files and noticed that they do not have the same queries. Query \#64 is missing from the XML file. I went and added the last query to the XML file and then I used an online XML to JSON converter to convert the XML file to JSON. The file ``85.json'' contains all 64 queries in JSON format and it is ready to use with Galago batch-search command. I ran the batch-search and saved the output to the file ``85.out''.
+
+\begin{lstlisting}[breakatwhitespace=〈false)]
+hussam@hussam-HP-Compaq-nc8430-GE542UP-ABA:~/Desktop/galago/galago-bin/bin$ ./galago batch-search --index=index --requested=10 85.json > 85.out
+\end{lstlisting}
+
+The batch search was processed successfully and the output was saved to ``85.out''.
+
+I tried to calculate the requested measures using the ``eval command'' of the baseline file ``85.out'' against the relevance judgment file ``cacm.rel'', but I ran into a problem. The command ``eval'' is being executed properly and the values for the number of retrieved documents and the relevant documents is correct, but the number of retrieved relevant document is coming up as zero for all queries. This is making all values for different measures a zero, which I know is not correct from questions 1 and 2 which I did by hand.
+
+\begin{lstlisting}[breakatwhitespace=〈false)]
+hussam@hussam-HP-Compaq-nc8430-GE542UP-ABA:~/Desktop/galago/galago-bin/bin$ ./galago eval --judgments=cacm.rel --baseline=85.out
+num_ret                     	all  520.00000
+num_rel                     	all  796.00000
+num_rel_ret                 	all	0.00000
+num_unjug_ret@20            	all  520.00000
+map                         	all	0.00000
+R-prec                      	all	0.00000
+bpref                       	all	0.00000
+recip_rank                  	all	0.00000
+ndcg                        	all	0.00000
+ndcg5                       	all	0.00000
+ndcg10                      	all	0.00000
+ndcg20                      	all	0.00000
+ERR                         	all	0.00000
+ERR10                       	all	0.00000
+ERR20                       	all	0.00000
+P5                          	all	0.00000
+P10                         	all	0.00000
+P15                         	all	0.00000
+P20                         	all	0.00000
+P30                         	all	0.00000
+P100                        	all	0.00000
+P200                        	all	0.00000
+P500                        	all	0.00000
+P1000                       	all	0.00000
+\end{lstlisting}
+
+
+I was unable to generate the requested graphs because I am getting incorrect results. I realized that I need this to work to solve parts of other questions in the assignment as well. Generating the graphs is rather simple using R just like I did in question 2.
+
