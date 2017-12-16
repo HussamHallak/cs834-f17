@@ -93,20 +93,20 @@ def hits(G, iterations_count=11, nstart=None, normalized=True):
     return h,a
 
 if __name__ == '__main__':
-    iterations_count = 11
+    iterations_count = 5
     G = nx.Graph()
     G.add_nodes_from(range(1,8))
     G.add_edges_from([(1,2), (3,1), (3,2), (3,4), (5,4), (6,4)])
 
     pr = pagerank(G, iterations_count=iterations_count)
 
-    print 'Pagerank Algorithm ({} iterations)'.format(iterations_coun)
+    print 'Pagerank Algorithm ({} iterations)'.format(iterations_count)
     print '============='
     print 'Pagerank values = {}'.format(pr)
 	
-	h, a = hits(G, iterations_count=iterations_coun)
+    h, a = hits(G, iterations_count=iterations_count)
 
-    print 'HITS Algorithm ({} iterations)'.format(iterations_coun)
+    print 'HITS Algorithm ({} iterations)'.format(iterations_count)
     print '============='
     print 'Hubs values = {}'.format(h)
     print 'Authorities values = {}'.format(a)

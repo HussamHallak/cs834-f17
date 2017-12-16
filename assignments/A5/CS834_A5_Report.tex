@@ -1,0 +1,130 @@
+\documentclass[a4paper, 11pt]{article}
+
+\usepackage{helvet}
+\usepackage{graphicx}
+\usepackage[hyphens]{url}
+\usepackage{hyperref}
+\usepackage[all]{hypcap} 
+\usepackage{xcolor}
+\usepackage{listings}
+\usepackage[T1]{fontenc}
+\usepackage{verbatim}
+\usepackage{mathtools}
+\usepackage{float}
+\usepackage{csquotes}
+
+\usepackage{comment} % enables the use of multi-line comments (\ifx \fi) 
+
+\usepackage{fullpage} % changes the margin
+\usepackage{longtable}
+\usepackage{graphicx}
+\usepackage{fancyvrb,xcolor}
+\usepackage{listings}
+\usepackage{color}
+\usepackage[margin=3cm]{geometry}
+\usepackage{relsize}
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\usepackage{float}
+\usepackage{caption}
+\DeclareCaptionFont{white}{\color{white}}
+\DeclareCaptionFormat{listing}{\colorbox{gray}{\parbox{\textwidth}{#1#2#3}}}
+\captionsetup[lstlisting]{format=listing,labelfont=white,textfont=white}
+\newcommand{\bigqm}[1][1]{\text{\larger[#1]{\textbf{?}}}}
+\lstset{
+  language=Java,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3
+}
+\graphicspath{ {images/} }
+
+\lstset{
+    basicstyle=\scriptsize,
+    numbers=left,
+    numberstyle=\scriptsize,
+    stepnumber=1,
+    numbersep=5pt,
+    showspaces=false,
+    showstringspaces=false,
+    showtabs=false,
+    frame=shadowbox,
+    tabsize=4,
+    captionpos=b,
+    breaklines=true,
+    breakatwhitespace=false,
+    keywordstyle=\color{blue!70},
+    commentstyle=\color{red!50!green!50!blue!50},
+    rulesepcolor=\color{red!20!green!20!blue!20},
+    numberbychapter=false,
+    stringstyle=\ttfamily
+}
+
+\setcounter{tocdepth}{2}
+
+\hypersetup{
+    colorlinks=true,
+    breaklinks=true,
+    urlcolor=blue,
+    linkcolor=black
+}
+
+\begin{document}
+
+\author{Hussam Hallak\\
+CS Master's Student}
+\title{Old Dominion University\\
+Department of Computer Science\\
+CS834: Introduction to Information Retrieval\\
+Fall 2017\\ 
+Assignment 5\\
+Professor: Dr. Michael Nelson}
+\maketitle
+\newpage
+
+%\tableofcontents
+%\listoffigures
+%\listoftables
+
+\include{Q1/Q1}
+\include{Q2/Q2}
+\include{Q3/Q3}
+\include{Q4/Q4}
+\include{Q5/Q5}
+\include{Q6/Q6}
+\include{Q7/Q7}
+
+\begin{thebibliography}{9}
+
+\bibitem{} 
+Stackoverflow. https://stackoverflow.com/questions/tagged/python.
+
+\bibitem{}
+http://convertjson.com/xml-to-json.htm
+
+\bibitem{} 
+https://docs.scipy.org/doc/scipy/reference/cluster.hierarchy.html
+
+\bibitem{}
+https://sourceforge.net/p/lemur/wiki/Galago\%20Query\%20Language/?version=2
+
+\bibitem{}
+https://matplotlib.org/api/\_as\_gen/matplotlib.pyplot.html\#module-matplotlib.pyplot
+
+
+\end{thebibliography}
+
+
+\end{document}

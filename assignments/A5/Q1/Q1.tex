@@ -16,7 +16,7 @@ The graph below was copied from the textbook Figure 10.3.
 I used the same node numbers in the textbook. The graph below was copied from the textbook Figure 10.4.
 
 \begin{figure}[h]
-\caption{Copied from the textbook Figure 10.3}
+\caption{Copied from the textbook Figure 10.4}
 \centering
 \includegraphics[scale=0.6]{Q1/hp1.png}
 \end{figure}
@@ -27,7 +27,86 @@ I wrote a python script and named it hp.py to calculate HITS and PageRank scores
 
 \lstinputlisting[language=python, label=hp.py, caption=The content of hp.py, breakatwhitespace=〈false)]{Q1/hp.py}
 
+\lstinputlisting[language=bash, label=hp.txt, caption=Running hp.py, breakatwhitespace=〈false)]{Q1/hp.txt}
+
 
 \textbf{Results}
+
+\textbf{Pagerank Algorithm (5 iterations):}
+
+
+Pagerank values:
+
+1: 0.15415210590313183
+
+2: 0.15415210590313183
+
+3: 0.2151836555953412
+
+4: 0.2730700543561289
+
+5: 0.08952435340504106
+
+6: 0.08952435340504106
+
+7: 0.024393371432183873
+
+
+\textbf{HITS Algorithm (5 iterations):}
+
+
+Hubs values:
+
+1: 0.19870751068593528
+
+2: 0.19870751068593528
+
+3: 0.258854060655404
+
+4: 0.1789639731325056
+
+5: 0.0823834724201099
+
+6: 0.0823834724201099 
+
+7: 0.0
+
+
+Authorities values:
+
+1: 0.20153417015341699
+
+2: 0.20153417015341699
+
+3: 0.25232450023245
+
+4: 0.18816829381682937
+
+5: 0.07821943282194328
+
+6: 0.07821943282194328
+
+7: 0.0
+
+
+\begin{figure}[h]
+\caption{Running hp.py}
+\centering
+\includegraphics[scale=0.34]{Q1/hpres.png}
+\end{figure}
+
+\textbf{Observation:}
+
+Right of the bat, it is clear that hubs and authorities ranking is consistent for all nodes. 
+
+Node 4 placed first in PageRank, but placed fourth in authorities score.
+
+Node 3 placed second in PageRank, but placed first  in authorities score.
+
+Nodes 1 and 2 come after node 3 for both authorities score and PageRank.
+
+Nodes 5 and 6 come after 1 and 2 for both authorities score and PageRank.
+
+There is an obvious difference in ranking for both algorithms, but this could be due to the low number of iterations.
 
 
