@@ -1,0 +1,146 @@
+hhallak@atria:~$ wget http://download.joachims.org/svm_light/current/svm_light.tar.gz
+--2017-12-15 03:32:51--  http://download.joachims.org/svm_light/current/svm_light.tar.gz
+Resolving download.joachims.org (download.joachims.org)... 81.88.34.174, 81.88.42.187
+Connecting to download.joachims.org (download.joachims.org)|81.88.34.174|:80...connected.
+HTTP request sent, awaiting response... 302 Found
+Location: http://osmot.cs.cornell.edu/svm_light/current/svm_light.tar.gz [following]
+--2017-12-15 03:32:52--  http://osmot.cs.cornell.edu/svm_light/current/svm_light.tar.gz
+Resolving osmot.cs.cornell.edu (osmot.cs.cornell.edu)... 128.253.51.182
+Connecting to osmot.cs.cornell.edu (osmot.cs.cornell.edu)|128.253.51.182|:80...connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 51026 (50K) [application/x-gzip]
+Saving to: ‘svm_light.tar.gz’
+
+100%[======================================>] 51,026       203KB/s   in 0.2s
+
+2017-12-15 03:32:52 (203 KB/s) - ‘svm_light.tar.gz’ saved [51026/51026]
+
+hhallak@atria:~$ ls
+532           git                     mid779       svm_light
+779           Gorgon                  Music        svm_light.tar.gz
+cs476Drwahab  hhallak_cert_request    Output.odt   Templates
+cs772         hhallak_privatekey.pem  Pictures     Videos
+cs772A2.pdf   hhallakPrivateKey.pem   Public       WINDOWS
+Desktop       hhallak_publickey.pem   public_html  win_user_profile
+Documents     hhallakPublicKey.pem    python       workspace
+Downloads     hussam                  setenvwahab
+final         M1                      sqlnet.log
+hhallak@atria:~$ cp svm_light.tar.gz ./svm_light
+hhallak@atria:~$ cd svm_light/
+hhallak@atria:~/svm_light$ ls
+svm_light.tar.gz
+hhallak@atria:~/svm_light$ gunzip -c svm_light.tar.gz | tar xvf -
+LICENSE.txt
+Makefile
+svm_learn.c
+kernel.h
+svm_learn.h
+svm_learn_main.c
+svm_classify.c
+svm_loqo.c
+svm_common.c
+svm_common.h
+svm_hideo.c
+hhallak@atria:~/svm_light$ make all
+gcc -c  -O3                      svm_learn_main.c -o svm_learn_main.o
+gcc -c  -O3                      svm_learn.c -o svm_learn.o
+gcc -c  -O3                      svm_common.c -o svm_common.o
+svm_common.c: In function ‘read_model’:
+svm_common.c:600:9: warning: ignoring return value of ‘fscanf’, declared with attribute warn_unused_result [-Wunused-result]
+   fscanf(modelfl,"SVM-light Version %s\n",version_buffer);
+         ^
+svm_common.c:605:9: warning: ignoring return value of ‘fscanf’, declared with attribute warn_unused_result [-Wunused-result]
+   fscanf(modelfl,"%ld%*[^\n]\n", &model->kernel_parm.kernel_type);
+         ^
+svm_common.c:606:9: warning: ignoring return value of ‘fscanf’, declared with attribute warn_unused_result [-Wunused-result]
+   fscanf(modelfl,"%ld%*[^\n]\n", &model->kernel_parm.poly_degree);
+         ^
+svm_common.c:607:9: warning: ignoring return value of ‘fscanf’, declared with attribute warn_unused_result [-Wunused-result]
+   fscanf(modelfl,"%lf%*[^\n]\n", &model->kernel_parm.rbf_gamma);
+         ^
+svm_common.c:608:9: warning: ignoring return value of ‘fscanf’, declared with attribute warn_unused_result [-Wunused-result]
+   fscanf(modelfl,"%lf%*[^\n]\n", &model->kernel_parm.coef_lin);
+         ^
+svm_common.c:609:9: warning: ignoring return value of ‘fscanf’, declared with attribute warn_unused_result [-Wunused-result]
+   fscanf(modelfl,"%lf%*[^\n]\n", &model->kernel_parm.coef_const);
+         ^
+svm_common.c:610:9: warning: ignoring return value of ‘fscanf’, declared with attribute warn_unused_result [-Wunused-result]
+   fscanf(modelfl,"%[^#]%*[^\n]\n", model->kernel_parm.custom);
+         ^
+svm_common.c:612:9: warning: ignoring return value of ‘fscanf’, declared with attribute warn_unused_result [-Wunused-result]
+   fscanf(modelfl,"%ld%*[^\n]\n", &model->totwords);
+         ^
+svm_common.c:613:9: warning: ignoring return value of ‘fscanf’, declared with attribute warn_unused_result [-Wunused-result]
+   fscanf(modelfl,"%ld%*[^\n]\n", &model->totdoc);
+         ^
+svm_common.c:614:9: warning: ignoring return value of ‘fscanf’, declared with attribute warn_unused_result [-Wunused-result]
+   fscanf(modelfl,"%ld%*[^\n]\n", &model->sv_num);
+         ^
+svm_common.c:615:9: warning: ignoring return value of ‘fscanf’, declared with attribute warn_unused_result [-Wunused-result]
+   fscanf(modelfl,"%lf%*[^\n]\n", &model->b);
+         ^
+svm_common.c:623:10: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+     fgets(line,(int)ll,modelfl);
+          ^
+gcc -c  -O3                      svm_hideo.c -o svm_hideo.o
+gcc  -O3                      svm_learn_main.o svm_learn.o svm_common.o svm_hideo.o -o svm_learn -L. -lm
+gcc -c  -O3                      svm_classify.c -o svm_classify.o
+gcc  -O3                      svm_classify.o svm_common.o -o svm_classify -L. -lm
+hhallak@atria:~/svm_light$ ls
+kernel.h      svm_classify.c  svm_common.o  svm_learn.c       svm_learn.o
+LICENSE.txt   svm_classify.o  svm_hideo.c   svm_learn.h       svm_light.tar.gz
+Makefile      svm_common.c    svm_hideo.o   svm_learn_main.c  svm_loqo.c
+svm_classify  svm_common.h    svm_learn     svm_learn_main.o
+hhallak@atria:~/svm_light$ wget http://download.joachims.org/svm_light/examples/example1.tar.gz
+--2017-12-15 03:38:15--  http://download.joachims.org/svm_light/examples/example1.tar.gz
+Resolving download.joachims.org (download.joachims.org)... 81.88.34.174, 81.88.42.187
+Connecting to download.joachims.org (download.joachims.org)|81.88.34.174|:80...connected.
+HTTP request sent, awaiting response... 302 Found
+Location: http://osmot.cs.cornell.edu/svm_light/examples/example1.tar.gz [following]
+--2017-12-15 03:38:15--  http://osmot.cs.cornell.edu/svm_light/examples/example1.tar.gz
+Resolving osmot.cs.cornell.edu (osmot.cs.cornell.edu)... 128.253.51.182
+Connecting to osmot.cs.cornell.edu (osmot.cs.cornell.edu)|128.253.51.182|:80...connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1223606 (1.2M) [application/x-gzip]
+Saving to: ‘example1.tar.gz’
+
+100%[======================================>] 1,223,606   1020KB/s   in 1.2s
+
+2017-12-15 03:38:17 (1020 KB/s) - ‘example1.tar.gz’ saved [1223606/1223606]
+
+hhallak@atria:~/svm_light$ ls
+example1.tar.gz  svm_classify.c  svm_hideo.c  svm_learn_main.c
+kernel.h         svm_classify.o  svm_hideo.o  svm_learn_main.o
+LICENSE.txt      svm_common.c    svm_learn    svm_learn.o
+Makefile         svm_common.h    svm_learn.c  svm_light.tar.gz
+svm_classify     svm_common.o    svm_learn.h  svm_loqo.c
+hhallak@atria:~/svm_light$ gunzip -c example1.tar.gz | tar xvf -
+example1/
+example1/train.dat
+example1/test.dat
+example1/words
+hhallak@atria:~/svm_light$ ./svm_learn example1/train.dat example1/model
+Scanning examples...done
+Reading examples into memory...100..200..300..400..500..600..700..800..900..1000..1100..1200..1300..1400..1500..1600..1700..1800..1900..2000..OK. (2000 examples read)
+Setting default regularization parameter C=1.0000
+Optimizing......................................................................done. (425 iterations)
+Optimization finished (5 misclassified, maxdiff=0.00085).
+Runtime in cpu-seconds: 0.10
+Number of SV: 878 (including 117 at upper bound)
+L1 loss: loss=35.67674
+Norm of weight vector: |w|=19.55576
+Norm of longest example vector: |x|=1.00000
+Estimated VCdim of classifier: VCdim<=383.42791
+Computing XiAlpha-estimates...done
+Runtime for XiAlpha-estimates in cpu-seconds: 0.00
+XiAlpha-estimate of the error: error<=5.85% (rho=1.00,depth=0)
+XiAlpha-estimate of the recall: recall=>95.40% (rho=1.00,depth=0)
+XiAlpha-estimate of the precision: precision=>93.07% (rho=1.00,depth=0)
+Number of kernel evaluations: 45954
+Writing model file...done
+hhallak@atria:~/svm_light$ ./svm_classify example1/test.dat example1/model example1/predictions
+Reading model...OK. (878 support vectors read)
+Classifying test examples..100..200..300..400..500..600..done
+Runtime (without IO) in cpu-seconds: 0.00
+Accuracy on test set: 97.67% (586 correct, 14 incorrect, 600 total)
+Precision/recall on test set: 96.43%/99.00%

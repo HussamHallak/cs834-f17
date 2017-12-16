@@ -1,0 +1,33 @@
+\section*{Question 6:}
+Extra Credit: SVMlight, 10 points extra credit:
+see: http://www.cs.cornell.edu/People/tj/svm\_light/
+* 1 point:
+work through the "Inductive SVM" example, discuss in detail the steps and resulting output
+* 9 points: 
+- create your own example modeled after the "Inductive SVM" example
+- pick a topic (e.g., "Australia") and provide 100 positive and 100 negative examples for training data:
+  -- using the Reuters-21578 collection (linked from the SVMlight page)
+  -- or, create your own collection with crawled web pages 
+- pick 30 documents not in the training set for your test data
+- stem the words in the collection, using TFIDF as the features (compute for the 230 documents)
+- train, classify, and discuss the results
+
+\subsection*{Answer:}
+
+I downloaded and installed the SVM light from: http://www.cs.cornell.edu/people/tj/svm\_light/
+
+I followed the installation instructions and downloaded the Inductive SVM example.
+
+I also followed the instructions to run svm\_learn and passed the training data ﬁle train.dat as a command line argument. It  This produced the model ﬁle which I used as an input for the program svm\_classify.
+
+The results were printed on the screen:
+
+Accuracy on test set: 97.67% (586 correct, 14 incorrect, 600 total)
+
+Precision/recall on test set: 96.43%/99.00%
+
+The results show that these scores are very high.
+
+I saved the entire session in the file svm.txt in Q6 folder. Below is the content of the file. 
+
+\lstinputlisting[language=Python, breakatwhitespace=〈false), label=The content of svm.txt, caption= The content of svm.txt]{Q6/svm.txt}
