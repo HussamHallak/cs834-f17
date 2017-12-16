@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.11.8)  15 DEC 2017 21:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.11.8)  15 DEC 2017 22:18
 entering extended mode
 **./CS834_A5_Report.tex
 (CS834_A5_Report.tex
@@ -735,17 +735,6 @@ Package pdftex.def Info: images/Q5/search.png used on input line 11.
 \openout2 = `Q6/Q6.aux'.
 
  (Q6/Q6.tex
-Overfull \hbox (53.09341pt too wide) in paragraph at lines 2--14
-\T1/cmr/m/n/10.95 Extra Credit: SVM-light, 10 points ex-tra credit: see: http:/
-/www.cs.cornell.edu/People/tj/svm_light/
- []
-
-
-Overfull \hbox (31.00537pt too wide) in paragraph at lines 17--18
-\T1/cmr/m/n/10.95 I down-loaded and in-stalled the SVM light from: http://www.c
-s.cornell.edu/people/tj/svm_light/ 
- []
-
 (Q6/svm.txt [18
 
 
@@ -755,11 +744,20 @@ Overfull \hbox (19.20721pt too wide) in paragraph at lines 124--125
  []
 
 )
-Overfull \hbox (6.0pt too wide) in paragraph at lines 33--33
+Overfull \hbox (6.0pt too wide) in paragraph at lines 27--27
 [][][][][][][] 
  []
 
-) [20]
+<images/Q6/svm.png, id=399, 1025.0295pt x 365.56575pt>
+File: images/Q6/svm.png Graphic file (type png)
+ <use images/Q6/svm.png>
+Package pdftex.def Info: images/Q6/svm.png used on input line 34.
+(pdftex.def)             Requested size: 410.00453pt x 146.2237pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [20] [21 <./images/Q6/svm.png>]
 \openout2 = `Q7/Q7.aux'.
 
 
@@ -771,7 +769,7 @@ odule-
  []
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 130.
-[21
+[22
 
 
 
@@ -814,10 +812,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 130.
  ) 
 Here is how much of TeX's memory you used:
- 12149 strings out of 493323
- 178414 string characters out of 3139063
- 628560 words of memory out of 3000000
- 15097 multiletter control sequences out of 15000+200000
+ 12156 strings out of 493323
+ 178539 string characters out of 3139063
+ 672560 words of memory out of 3000000
+ 15101 multiletter control sequences out of 15000+200000
  14897 words of font info for 40 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  37i,7n,50p,922b,1930s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -832,9 +830,9 @@ Hussam\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk>
  <C:\Users\Hussam\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\e
 crm1728.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pf
 b>
-Output written on CS834_A5_Report.pdf (21 pages, 8810341 bytes).
+Output written on CS834_A5_Report.pdf (22 pages, 8849851 bytes).
 PDF statistics:
- 912 PDF objects out of 1000 (max. 8388607)
- 361 named destinations out of 1000 (max. 500000)
- 71 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 914 PDF objects out of 1000 (max. 8388607)
+ 363 named destinations out of 1000 (max. 500000)
+ 76 words of extra memory for PDF output out of 10000 (max. 10000000)
 
