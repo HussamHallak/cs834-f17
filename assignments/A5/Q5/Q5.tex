@@ -11,4 +11,10 @@ To answer this question, I ran the query ``term dependency source:SIGIR'' in Goo
 \includegraphics[scale=0.37]{Q5/search.png}
 \end{figure}
 
-The query returned 319 results, however, some of the results are papers dealing with term dependency prior to 2000. I filtered the results by hand and organized them in the following table:
+The query returned 319 results, however, some of the results are papers dealing with term dependency prior to 2000. I tried to scrape the results page, but I ran into problems and was running out of time. I found a python script that scrapes Google Scholar results page, but the script did not return any results, nor did it return any errors. I abandoned the idea when I realized that I only have one hour to finish this assignment and submit it on time. 
+
+I filtered the results and cleaned them up by hand and saved them in the file sigir2kplus.txt. Below is the content of the file:
+
+
+\lstinputlisting[breakatwhitespace=(true), breaklines=(true) label=The content of sigir2kplus.txt, caption= The content of sigir2kplus.txt]{Q5/sigir2kplus.txt}
+

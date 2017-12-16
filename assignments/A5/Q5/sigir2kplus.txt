@@ -1,0 +1,1912 @@
+Incorporating term dependency in the DFR framework
+J Peng, C Macdonald, B He, V Plachouras… - … international ACM SIGIR …, 2007 - dl.acm.org
+
+  
+  
+Cited by 56 
+  
+
+Query term ranking based on dependency parsing of verbose queries
+JH Park, WB Croft - Proceedings of the 33rd international ACM SIGIR …, 2010 - dl.acm.org
+
+
+
+  Cited by 28 
+  
+  
+Score-safe term-dependency processing with hybrid indexes
+M Petri, A Moffat, JS Culpepper - … of the 37th international ACM SIGIR …, 2014 - dl.acm.org
+
+
+  Cited by 10 
+  
+  
+Random walk term weighting for information retrieval
+R Blanco, C Lioma - … of the 30th annual international ACM SIGIR …, 2007 - dl.acm.org
+
+
+
+  Cited by 35 
+  
+  
+A comparison of various approaches for using probabilistic dependencies in language modeling
+P Bruza, D Song - … of the 26th annual international ACM SIGIR …, 2003 - dl.acm.org
+
+
+
+  Cited by 16 
+  
+  
+Modeling higher-order term dependencies in information retrieval using query hypergraphs
+M Bendersky, WB Croft - … of the 35th international ACM SIGIR conference …, 2012 - dl.acm.org
+
+
+
+  Cited by 54 
+  
+  
+Dependence language model for information retrieval
+J Gao, JY Nie, G Wu, G Cao - … of the 27th annual international ACM SIGIR …, 2004 - dl.acm.org
+
+
+
+  Cited by 294 
+  
+  
+Refining term weights of documents using term dependencies
+H Kim, I Choi, M Kim - … of the 27th annual international ACM SIGIR …, 2004 - dl.acm.org
+
+
+
+  Cited by 9 
+  
+  
+Integrating word relationships into language models
+G Cao, JY Nie, J Bai - … of the 28th annual international ACM SIGIR …, 2005 - dl.acm.org
+
+
+
+  Cited by 184 
+  
+
+Modelling term dependence with copulas
+C Eickhoff, AP de Vries, T Hofmann - … of the 38th international ACM SIGIR …, 2015 - dl.acm.org
+
+
+
+  Cited by 8 
+  
+  
+MRF based approach for sentence retrieval
+K Cai, C Chen, K Liu, J Bu, P Huang - … annual international ACM SIGIR …, 2007 - dl.acm.org
+
+
+
+  Cited by 6 
+  
+
+Automatic P hrase Indexing for Document Retrieval: An Examination of Syntactic and Non-Syntactic Methods
+JL Fagan - ACM SIGIR Forum, 2017 - dl.acm.org
+
+
+
+  Cited by 169 
+  
+  
+Improving Search using Proximity-Based Statistics
+X Lu - … 38th International ACM SIGIR Conference on Research …, 2015 - dl.acm.org
+
+
+
+  Cited by 1 
+  
+  
+Exploiting term dependence while handling negation in medical search
+N Limsopatham, C Macdonald, R McCreadie… - … international ACM SIGIR …, 2012 - dl.acm.org
+
+
+
+  Cited by 21 
+  
+
+A proximity language model for information retrieval
+J Zhao, Y Yun - Proceedings of the 32nd international ACM SIGIR …, 2009 - dl.acm.org
+
+
+
+  Cited by 69 
+  
+  
+Mining dependency relations for query expansion in passage retrieval
+R Sun, CH Ong, TS Chua - … of the 29th annual international ACM SIGIR …, 2006 - dl.acm.org
+
+
+
+  Cited by 68 
+
+
+Social annotation in query expansion: a machine learning approach
+Y Lin, H Lin, S Jin, Z Ye - … of the 34th international ACM SIGIR …, 2011 - dl.acm.org
+
+
+
+  Cited by 39 
+
+  
+
+Dependency relation matching for answer selection
+R Sun, H Cui, K Li, MY Kan, TS Chua - … annual international ACM SIGIR …, 2005 - dl.acm.org
+
+
+  Cited by 20 
+  
+  
+
+Exploiting proximity feature in bigram language model for information retrieval
+SH Na, J Kim, IS Kang, JH Lee - … the 31st annual international ACM SIGIR …, 2008 - dl.acm.org
+
+
+
+  Cited by 6 
+  
+  
+Exploiting semantics for improving clinical information retrieval
+A Babashzadeh, J Huang, M Daoud - … the 36th international ACM SIGIR …, 2013 - dl.acm.org
+
+
+
+  Cited by 21 
+  
+  
+Exploring and measuring dependency trees for informationretrieval
+C Liu - … of the 31st annual international ACM SIGIR conference …, 2008 - dl.acm.org
+
+
+
+  Cited by 1 
+  
+ 
+Learning to reweight terms with distributed representations
+G Zheng, J Callan - Proceedings of the 38th International ACM SIGIR …, 2015 - dl.acm.org
+
+
+
+  Cited by 35 
+  
+  
+Query term ranking based on search results overlap
+W Song, Y Zhang, Y Xie, T Liu, S Li - … of the 34th international ACM SIGIR …, 2011 - dl.acm.org
+
+
+
+  Cited by 1 
+  
+
+  
+Positional language models for information retrieval
+Y Lv, CX Zhai - Proceedings of the 32nd international ACM SIGIR …, 2009 - dl.acm.org
+
+
+
+  Cited by 198 
+  
+  
+Event tracking based on domain dependency
+F Fukumoto, Y Suzuki - … of the 23rd annual international ACM SIGIR …, 2000 - dl.acm.org
+
+
+
+  Cited by 38 
+  
+  
+Question answering passage retrieval using dependency relations
+H Cui, R Sun, K Li, MY Kan, TS Chua - … annual international ACM SIGIR …, 2005 - dl.acm.org
+
+
+
+  Cited by 232 
+  
+  
+Parameterized concept weighting in verbose queries
+M Bendersky, D Metzler, WB Croft - … of the 34th international ACM SIGIR …, 2011 - dl.acm.org
+
+
+
+  Cited by 100 
+  
+
+  
+Sigir 2014 workshop on semantic matching in information retrieval
+J Gonzalo, H Li, A Moschitti, J Xu - … of the 37th international ACM SIGIR …, 2014 - dl.acm.org
+
+
+
+  Cited by 4 
+  
+  
+Compact query term selection using topically related text
+KT Maxwell, WB Croft - Proceedings of the 36th international ACM SIGIR …, 2013 - dl.acm.org
+
+
+
+  Cited by 38 
+  
+
+  
+Incorporating query term dependencies in language models for document retrieval
+M Srikanth, R Srihari - … of the 26th annual international ACM SIGIR …, 2003 - dl.acm.org
+
+
+  Cited by 19 
+  
+
+  
+Building a web test collection using social media
+CJ Lee, WB Croft - Proceedings of the 36th international ACM SIGIR …, 2013 - dl.acm.org
+
+
+  Cited by 3 
+  
+  
+Exploring reductions for long web queries
+N Balasubramanian, G Kumaran… - … international ACM SIGIR …, 2010 - dl.acm.org
+
+
+  Cited by 74 
+  
+
+  
+Learning user reformulation behavior for query auto-completion
+JY Jiang, YY Ke, PY Chien, PJ Cheng - … the 37th international ACM SIGIR …, 2014 - dl.acm.org
+
+
+
+  Cited by 40 
+  
+  
+Modeling term dependencies with quantum language models for IR
+A Sordoni, JY Nie, Y Bengio - … of the 36th international ACM SIGIR …, 2013 - dl.acm.org
+
+
+
+  Cited by 21 
+  
+  
+An alignment-based pattern representation model for information extraction
+S Kim, M Jeong, GG Lee - … of the 31st annual international ACM SIGIR …, 2008 - dl.acm.org
+
+
+
+  Cited by 3 
+  
+  
+
+[PDF] Extracting adverse drug reactions from forum posts and linking them to drugs
+A Yates, N Goharian, O Frieder - … of the 2013 ACM SIGIR …, 2013 - pdfs.semanticscholar.org
+
+
+  Cited by 11 
+  
+  
+Copulas for information retrieval
+C Eickhoff, AP de Vries… - … international ACM SIGIR …, 2013 - dl.acm.org
+
+
+
+  Cited by 19 
+  
+  
+
+  Hybrid word-subword decoding for spoken term detection
+I Szoke, M Fapso, L Burget… - … International ACM SIGIR …, 2008 - researchgate.net
+
+
+  Cited by 42 
+  
+  
+
+  Investigation of web query refinement via topic analysis and learning with personalization
+L Bing, W Lam - … of the 2nd SIGIR Workshop on Query …, 2011 - researchgate.net
+
+
+  Cited by 2 
+  
+  
+  An exploration of proximity measures in information retrieval
+T Tao, CX Zhai - … of the 30th annual international ACM SIGIR …, 2007 - dl.acm.org
+
+
+  Cited by 245 
+  
+  
+Feature selection for automatic taxonomy induction
+H Yang, J Callan - Proceedings of the 32nd international ACM SIGIR …, 2009 - dl.acm.org
+
+
+  Cited by 6 
+  
+  
+Query type classification for web document retrieval
+IH Kang, GC Kim - … of the 26th annual international ACM SIGIR …, 2003 - dl.acm.org
+
+
+  Cited by 332 
+  
+  
+Automatic refinement of patent queries using concept importance predictors
+P Mahdabi, L Andersson, M Keikha… - … international ACM SIGIR …, 2012 - dl.acm.org
+
+
+  Cited by 34 
+  
+Efficient cost-aware cascade ranking in multi-stage retrieval
+RC Chen, L Gallagher, R Blanco… - … International ACM SIGIR …, 2017 - dl.acm.org
+
+
+  Cited by 3 
+  
+  
+Using key concepts in a translation model for retrieval
+JH Park, WB Croft - Proceedings of the 38th International ACM SIGIR …, 2015 - dl.acm.org
+
+
+  Cited by 8 
+  
+
+Enhancing ad-hoc relevance weighting using probability density estimation
+X Zhou, JX Huang, B He - … of the 34th international ACM SIGIR …, 2011 - dl.acm.org
+
+
+  Cited by 9 
+  
+
+  
+Efficient & Effective Selective Query Rewriting with Efficiency Predictions
+C Macdonald, N Tonellotto, I Ounis - … of the 40th International ACM SIGIR …, 2017 - dl.acm.org
+
+
+Cited by 0
+
+
+Revisiting the dependence language model for information retrieval
+L Maisonnasse, E Gaussier, JP Chevallet - … international ACM SIGIR …, 2007 - dl.acm.org
+
+
+  Cited by 24 
+  
+Flat vs. hierarchical phrase-based translation models for cross-language information retrieval
+F Ture, J Lin - … 36th international ACM SIGIR conference on Research …, 2013 - dl.acm.org
+
+
+  Cited by 3 
+  
+Learning for search result diversification
+Y Zhu, Y Lan, J Guo, X Cheng, S Niu - … the 37th international ACM SIGIR …, 2014 - dl.acm.org
+
+
+  Cited by 42 
+  
+
+
+
+Cross-language text classification
+JS Olsson, DW Oard, J Hajič - … the 28th annual international ACM SIGIR …, 2005 - dl.acm.org
+
+
+  Cited by 50 
+  
+On the cost of phrase-based ranking
+M Petri, A Moffat - Proceedings of the 38th International ACM SIGIR …, 2015 - dl.acm.org
+
+
+  Cited by 1 
+  
+  
+ Selecting indexing strings using adaptation
+Y Takeda, K Umemura - … of the 25th annual international ACM SIGIR …, 2002 - dl.acm.org
+
+
+  Cited by 11 
+  
+  
+Efficient in-memory top-k document retrieval
+JS Culpepper, M Petri, F Scholer - … of the 35th international ACM SIGIR …, 2012 - dl.acm.org
+
+
+  Cited by 35 
+  
+Automatic term mismatch diagnosis for selective query expansion
+L Zhao, J Callan - Proceedings of the 35th international ACM SIGIR …, 2012 - dl.acm.org
+
+
+  Cited by 17 
+  
+Structured retrieval for question answering
+MW Bilotti, P Ogilvie, J Callan, E Nyberg - … international ACM SIGIR …, 2007 - dl.acm.org
+
+
+  Cited by 106 
+  
+
+The document as an ergodic markov chain
+E Hoenkamp, D Song - … of the 27th annual international ACM SIGIR …, 2004 - dl.acm.org
+
+
+  Cited by 8 
+  
+Non-compositional term dependence for information retrieval
+C Lioma, JG Simonsen, B Larsen… - … International ACM SIGIR …, 2015 - dl.acm.org
+
+
+  Cited by 7 
+  
+Probabilistic model for contextual retrieval
+JR Wen, N Lao, WY Ma - … of the 27th annual international ACM SIGIR …, 2004 - dl.acm.org
+
+
+  Cited by 65 
+  
+  
+Resolving query translation ambiguity using a decaying co-occurrence model and syntactic dependence relations
+J Gao, M Zhou, JY Nie, H He, W Chen - … annual international ACM SIGIR …, 2002 - dl.acm.org
+
+
+  Cited by 106 
+  
+
+Major topic detection and its application to opinion summarization
+LW Ku, LY Lee, TH Wu, HH Chen - … 28th annual international ACM SIGIR …, 2005 - dl.acm.org
+
+
+  Cited by 76 
+  
+[PDF] Retrieval Techniques for Contextual Learning.
+N Weingart, C Eickhoff - SAL@ SIGIR, 2016 - 
+  
+  
+  Cited by 0
+  
+  
+A study of statistical models for query translation: finding a good unit of translation
+J Gao, JY Nie - … of the 29th annual international ACM SIGIR …, 2006 - dl.acm.org
+
+
+
+  Cited by 40 
+  
+
+Based on Term Frequency Ranks
+IJJ Aalbersberg - … Seventeenth Annual International ACM-SIGIR …, 2012 - books.google.com
+
+
+Cited by 0
+
+Report on the ad-hoc track of the INEX 2005 workshop
+M Lalmas, G Kazai - ACM Sigir Forum, 2006 - dl.acm.org
+
+
+
+  Cited by 13 
+  
+  
+Automatic summarization focusing on document genre and text structure
+Y Seki - ACM SIGIR Forum, 2005 - dl.acm.org
+
+
+
+  Cited by 11 
+  
+Context aware query classification using dynamic query window and relationship net
+N Goharian, SSR Mengle - … of the 33rd international ACM SIGIR …, 2010 - dl.acm.org
+
+
+  Cited by 4 
+  
+
+Pseudo test collections for training and tuning microblog rankers
+R Berendsen, M Tsagkias, W Weerkamp… - … international ACM SIGIR …, 2013 - dl.acm.org
+
+
+  Cited by 17 
+  
+Evolutionary document summarization for disaster management
+D Wang, L Zheng, T Li, Y Deng - … of the 32nd international ACM SIGIR …, 2009 - dl.acm.org
+
+
+  Cited by 9 
+  
+
+
+[PDF] Learning to rank documents for ad-hoc retrieval with regularized models
+G Cao, JY Nie, L Si, J Bai - SIGIR 2007 workshop on Learning to …, 2007 - academia.edu
+
+
+
+  Cited by 8 
+  
+Query-sensitive mutual reinforcement chain and its application in query-oriented multi-document summarization
+F Wei, W Li, Q Lu, Y He - … of the 31st annual international ACM SIGIR …, 2008 - dl.acm.org
+
+
+
+  Cited by 99 
+  
+Learning for Efficient Supervised Query Expansion via Two-stage Feature Selection
+Z Zhang, Q Wang, L Si, J Gao - … of the 39th International ACM SIGIR …, 2016 - dl.acm.org
+
+
+
+  Cited by 2 
+  
+
+Modeling Document Novelty with Neural Tensor Network for Search Result Diversification
+L Xia, J Xu, Y Lan, J Guo, X Cheng - … of the 39th International ACM SIGIR …, 2016 - dl.acm.org
+
+
+  Cited by 10 
+  
+Hierarchical classification for automatic image annotation
+J Fan, Y Gao, H Luo - … of the 30th annual international ACM SIGIR …, 2007 - dl.acm.org
+
+
+
+  Cited by 93 
+  
+
+Open Relation Extraction for Support Passage Retrieval: Merit and Open Issues
+A Kadry, L Dietz - Proceedings of the 40th International ACM SIGIR …, 2017 - dl.acm.org
+
+
+
+  Cited by 1 
+  
+  
+Citation sentences for semantic analysis of bioscience text
+PI Nakov, AS Schwartz… - … of the SIGIR, 2004 - ai2-s2-pdfs.s3.amazonaws.com
+
+
+
+  Cited by 122 
+  
+  
+Properties of Extended Boolean Models
+JH Lee - … of the Seventeenth Annual International ACM-SIGIR …, 2012 - books.google.com
+
+
+Cited by 0
+
+
+Generic summarization and keyphrase extraction using mutual reinforcement principle and sentence clustering
+H Zha - … of the 25th annual international ACM SIGIR …, 2002 - dl.acm.org
+
+
+
+  Cited by 303 
+  
+  
+Translation of Natural Language Query Into Keyword Query Using a RNN Encoder-Decoder
+HJ Song, A Kim, SB Park - … of the 40th International ACM SIGIR …, 2017 - dl.acm.org
+
+
+Cited by 0
+ 
+A model for expert finding in social networks
+E Smirnova - … 34th international ACM SIGIR conference on Research …, 2011 - dl.acm.org
+
+
+
+  Cited by 14 
+  
+  
+Structured translation for cross-language information retrieval
+R Sperer, DW Oard - … of the 23rd annual international ACM SIGIR …, 2000 - dl.acm.org
+
+
+
+  Cited by 63 
+  
+
+A unified and discriminative model for query refinement
+J Guo, G Xu, H Li, X Cheng - … of the 31st annual international ACM SIGIR …, 2008 - dl.acm.org
+
+
+
+  Cited by 137 
+  
+
+
+An improved markov random field model for supporting verbose queries
+M Lease - Proceedings of the 32nd international ACM SIGIR …, 2009 - dl.acm.org
+
+
+
+  Cited by 56 
+  
+  
+Information retrieval and applications of graphical models (IRGM 2007)
+JM Fernández-Luna, B Piwowarski, JF Huete - ACM SIGIR Forum, 2007 - dl.acm.org
+
+
+  Cited by 2 
+  
+  Integrating logical operators in query expansion in vector space model
+JY Nie, F Jin - SIGIR workshop on Mathematical and Formal …, 2002 - cir.dcs.uni-pannon.hu
+
+
+
+  Cited by 21 
+  
+  
+Deep classification in large-scale text hierarchies
+GR Xue, D Xing, Q Yang, Y Yu - … the 31st annual international ACM SIGIR …, 2008 - dl.acm.org
+
+
+
+  Cited by 164 
+  
+  
+A location-based news article recommendation with explicit localized semantic analysis
+JW Son, A Kim, SB Park - … of the 36th international ACM SIGIR …, 2013 - dl.acm.org
+
+
+
+  Cited by 27 
+  
+  
+
+Hierarchical classification of Web content
+S Dumais, H Chen - … of the 23rd annual international ACM SIGIR …, 2000 - dl.acm.org
+
+
+
+  Cited by 1006 
+  
+  
+TSCAN: a novel method for topic summarization and content anatomy
+CC Chen, MC Chen - … of the 31st annual international ACM SIGIR …, 2008 - dl.acm.org
+
+
+
+  Cited by 34 
+  
+  
+  
+Collective entity linking in web text: a graph-based method
+X Han, L Sun, J Zhao - Proceedings of the 34th international ACM SIGIR …, 2011 - dl.acm.org
+
+
+
+  Cited by 286 
+  
+  
+
+Statistical cross-language information retrieval using n-best query translations
+M Federico, N Bertoldi - … of the 25th annual international ACM SIGIR …, 2002 - dl.acm.org
+
+
+
+  Cited by 79 
+  
+  
+  Aspect-based opinion mining from online reviews
+S Moghaddam, M Ester - Tutorial at SIGIR Conference, 2012 - cs.sfu.ca
+
+
+
+  Cited by 25 
+  
+  
+Enhancing web search by mining search and browse logs.
+D Jiang, J Pei, H Li - SIGIR, 2011 - sigir2011.org
+
+
+  Cited by 2 
+  
+  
+On ranking the effectiveness of searches
+V Vinay, IJ Cox, N Milic-Frayling, K Wood - … international ACM SIGIR …, 2006 - dl.acm.org
+
+
+
+  Cited by 73 
+  
+
+
+Block-based web search
+D Cai, S Yu, JR Wen, WY Ma - … the 27th annual international ACM SIGIR …, 2004 - dl.acm.org
+
+
+  Cited by 234 
+  
+  
+An event extraction model based on timeline and user analysis in latent dirichlet allocation
+B Tsolmon, KS Lee - Proceedings of the 37th international ACM SIGIR …, 2014 - dl.acm.org
+
+
+
+  Cited by 8 
+  
+  
+Report on ACM SIGIR workshop on mathematical/formal methods in information retrieval
+S Dominich, M Lalmas, CJ van Rijsbergen - ACM SIGIR Forum, 2002 - dl.acm.org
+
+Cited by 0
+
+
+A scalability analysis of classifiers in text categorization
+Y Yang, J Zhang, B Kisiel - … of the 26th annual international ACM SIGIR …, 2003 - dl.acm.org
+
+
+
+  Cited by 217 
+  
+
+  Distributed Representations for Semantic Matching in non-factoid Question Answering.
+P Molino, LM Aiello - SMIR@ SIGIR, 2014 - ceur-ws.org
+
+
+  Cited by 1 
+  
+Multi-labelled classification using maximum entropy method
+S Zhu, X Ji, W Xu, Y Gong - … of the 28th annual international ACM SIGIR …, 2005 - dl.acm.org
+
+
+
+  Cited by 203 
+  
+  
+Contextual search and name disambiguation in email using graphs
+E Minkov, WW Cohen, AY Ng - … the 29th annual international ACM SIGIR …, 2006 - dl.acm.org
+
+
+
+  Cited by 184 
+  
+  
+Opinion holder extraction from author and authority viewpoints
+Y Seki - … of the 30th annual international ACM SIGIR …, 2007 - dl.acm.org
+
+
+
+  Cited by 17 
+  
+  
+Context-aware point-of-interest recommendation using tensor factorization with social regularization
+L Yao, QZ Sheng, Y Qin, X Wang… - … ACM SIGIR conference …, 2015 - dl.acm.org
+
+
+
+  Cited by 26 
+  
+  
+
+
+
+Generative modeling of persons and documents for expert search
+P Serdyukov, D Hiemstra, M Fokkinga… - … international ACM SIGIR …, 2007 - dl.acm.org
+
+
+
+  Cited by 10 
+  
+  
+Taily: shard selection using the tail of score distributions
+R Aly, D Hiemstra, T Demeester - … of the 36th international ACM SIGIR …, 2013 - dl.acm.org
+
+
+
+  Cited by 31 
+  
+  
+[PDF] DIR 2010: the tenth Dutch-Belgian information retrieval workshop.
+W Kraaij, S Verberne, M Hinne, M van der Heijden… - SIGIR Forum, 2010 - researchgate.net
+
+
+Cited by 0
+
+That's not my question: Learning to weight unmatched terms in CQA vertical search
+B Petersil, A Mejer, I Szpektor, K Crammer - … International ACM SIGIR …, 2016 - dl.acm.org
+
+
+
+  Cited by 2 
+  
+  
+Exploiting sequential dependencies for expert finding
+P Serdyukov, H Rode, D Hiemstra - … 31st annual international ACM SIGIR …, 2008 - dl.acm.org
+
+
+
+  Cited by 17 
+  
+  
+Iterative translation disambiguation for cross-language information retrieval
+C Monz, BJ Dorr - … of the 28th annual international ACM SIGIR …, 2005 - dl.acm.org
+
+
+
+  Cited by 68 
+  
+  
+ILDA: interdependent LDA model for learning latent aspects and their ratings from online product reviews
+S Moghaddam, M Ester - … of the 34th international ACM SIGIR …, 2011 - dl.acm.org
+
+
+
+  Cited by 119 
+  
+  
+
+
+Discovering key concepts in verbose queries
+M Bendersky, WB Croft - … of the 31st annual international ACM SIGIR …, 2008 - dl.acm.org
+
+
+
+  Cited by 262 
+  
+  
+Proximity-based opinion retrieval
+S Gerani, MJ Carman, F Crestani - … of the 33rd international ACM SIGIR …, 2010 - dl.acm.org
+
+
+
+  Cited by 72 
+  
+  
+Automatic query wefinement using lexical affinities with maximal information gain
+D Carmel, E Farchi, Y Petruschka, A Soffer - … international ACM SIGIR …, 2002 - dl.acm.org
+
+
+
+  Cited by 104 
+  
+  
+AIR 2006: First international workshop on adaptive information retrieval
+H Joho, J Urban, R Villa, JM Jose… - ACM SIGIR Forum, 2008 - dl.acm.org
+
+
+
+  Cited by 4 
+  
+  
+Translating unknown queries with web corpora for cross-language information retrieval
+PJ Cheng, JW Teng, RC Chen, JH Wang… - … ACM SIGIR conference …, 2004 - dl.acm.org
+
+
+
+  Cited by 120 
+  
+  
+[PDF] When is a query a question? Reconstructing wh-requests from ad hoc-queries
+M van der Heijden, M Hinne, S Verberne… - … Development SIGIR …, 2010 - lands.let.ru.nl
+
+
+Cited by 0
+
+
+Improving query translation for cross-language information retrieval using statistical models
+J Gao, JY Nie, E Xun, J Zhang, M Zhou… - … international ACM SIGIR …, 2001 - dl.acm.org
+
+
+
+  Cited by 154 
+  
+  
+Integrating phrase inseparability in phrase-based model
+L Shi, JY Nie - … 32nd international ACM SIGIR conference on research …, 2009 - dl.acm.org
+
+
+
+  Cited by 10 
+  
+  
+Cross-Device User Linking: URL, Session, Visiting Time, and Device-log Embedding
+MC Phan, A Sun, Y Tay - … of the 40th International ACM SIGIR …, 2017 - dl.acm.org
+
+
+
+Cited by 0
+  
+  
+A new probabilistic retrieval model based on the dirichlet compound multinomial distribution
+Z Xu, R Akella - … of the 31st annual international ACM SIGIR conference …, 2008 - dl.acm.org
+
+
+
+  Cited by 31 
+  
+  
+  
+Linear discriminant model for information retrieval
+J Gao, H Qi, X Xia, JY Nie - … of the 28th annual international ACM SIGIR …, 2005 - dl.acm.org
+
+
+
+  Cited by 118 
+  
+  
+High performance question/answering
+MA Pasca, SM Harabagiu - … of the 24th annual international ACM SIGIR …, 2001 - dl.acm.org
+
+
+
+  Cited by 208 
+  
+  
+DUMPLING: A Novel Dynamic Search Engine
+AJ Zhou, J Luo, H Yang - … of the 38th International ACM SIGIR …, 2015 - dl.acm.org
+
+
+
+  Cited by 2 
+  
+  
+Bundle recommendation in ecommerce
+T Zhu, P Harrington, J Li, L Tang - … of the 37th international ACM SIGIR …, 2014 - dl.acm.org
+
+
+
+  Cited by 26 
+  
+  
+  Document representation with generalized latent semantic analysis
+I Matveeva, A Farahat, C Royer - … in Information Retrieval (SIGIR 2005), 2005 - parc.com
+
+
+
+  Cited by 2 
+  
+  
+Unifying user-based and item-based collaborative filtering approaches by similarity fusion
+J Wang, AP De Vries, MJT Reinders - … annual international ACM SIGIR …, 2006 - dl.acm.org
+
+
+
+  Cited by 740 
+  
+  
+
+Learning phonetic similarity for matching named entity translations and mining new translations
+W Lam, R Huang, PS Cheung - … 27th annual international ACM SIGIR …, 2004 - dl.acm.org
+
+
+  Cited by 25 
+  
+  
+Latent concepts and the number orthogonal factors in latent semantic analysis
+G Dupret - … of the 26th annual international ACM SIGIR …, 2003 - dl.acm.org
+
+
+
+  Cited by 33 
+  
+
+
+[PDF] Cross lingual issues in patent retrieval
+L Sarasúa, G Corremans - … of the ACM SIGIR 2000 Workshop on …, 2000 - research.nii.ac.jp
+
+
+
+  Cited by 10 
+  
+  
+
+
+Analysis of structural relationships for hierarchical cluster labeling
+M Muhr, R Kern, M Granitzer - … of the 33rd international ACM SIGIR …, 2010 - dl.acm.org
+
+
+
+  Cited by 28 
+  
+  
+Topic themes for multi-document summarization
+S Harabagiu, F Lacatusu - … of the 28th annual international ACM SIGIR …, 2005 - dl.acm.org
+
+
+
+  Cited by 150 
+  
+  
+Improving QA retrieval using document priors
+J Mayfield, P McNamee - … of the 29th annual international ACM SIGIR …, 2006 - dl.acm.org
+
+
+Cited by 0
+
+
+Coarse-to-fine review selection via supervised joint aspect and sentiment model
+Z Hai, G Cong, K Chang, W Liu, P Cheng - … 37th international ACM SIGIR …, 2014 - dl.acm.org
+
+
+
+  Cited by 11 
+  
+
+To personalize or not to personalize: modeling queries with variation in user intent
+J Teevan, ST Dumais, DJ Liebling - … 31st annual international ACM SIGIR …, 2008 - dl.acm.org
+
+
+  Cited by 263 
+  
+  
+ 
+ 
+ Learning to respond with deep neural networks for retrieval-based human-computer conversation system
+R Yan, Y Song, H Wu - Proceedings of the 39th International ACM SIGIR …, 2016 - dl.acm.org
+
+
+
+  Cited by 31 
+  
+  
+Social context summarization
+Z Yang, K Cai, J Tang, L Zhang, Z Su, J Li - … 34th international ACM SIGIR …, 2011 - dl.acm.org
+
+
+
+  Cited by 85 
+  
+Information-based models for ad hoc IR
+S Clinchant, E Gaussier - … of the 33rd international ACM SIGIR …, 2010 - dl.acm.org
+
+
+
+  Cited by 112 
+  
+  
+Set-based model: A new approach for information retrieval
+B Pôssas, N Ziviani, W Meira Jr… - … international ACM SIGIR …, 2002 - dl.acm.org
+
+
+
+  Cited by 38 
+  
+  
+Multi-label informed latent semantic indexing
+K Yu, S Yu, V Tresp - … of the 28th annual international ACM SIGIR …, 2005 - dl.acm.org
+
+
+
+  Cited by 215 
+  
+  
+Personalized query expansion for the web
+PA Chirita, CS Firan, W Nejdl - … the 30th annual international ACM SIGIR …, 2007 - dl.acm.org
+
+
+
+  Cited by 342 
+  
+  
+
+The role of knowledge in conceptual retrieval: a study in the domain of clinical medicine
+J Lin, D Demner-Fushman - … of the 29th annual international ACM SIGIR …, 2006 - dl.acm.org
+
+
+
+  Cited by 73 
+  
+ 
+
+Modularity-based query clustering for identifying users sharing a common condition
+MGO Harel, E Yom-Tov - … of the 38th International ACM SIGIR …, 2015 - dl.acm.org
+
+
+  Cited by 1 
+  
+  
+Modeling multi-query retrieval tasks using density matrix transformation
+Q Li, J Li, P Zhang, D Song - … of the 38th International ACM SIGIR …, 2015 - dl.acm.org
+
+
+  Cited by 4 
+  
+
+Analysis of lexical signatures for finding lost or related documents
+ST Park, DM Pennock, CL Giles, R Krovetz - … international ACM SIGIR …, 2002 - dl.acm.org
+
+
+  Cited by 38 
+  
+  
+Robustness of adaptive filtering methods in a cross-benchmark evaluation
+Y Yang, S Yoo, J Zhang, B Kisiel - … 28th annual international ACM SIGIR …, 2005 - dl.acm.org
+
+
+  Cited by 55 
+  
+  
+Context sensitive stemming for web search
+F Peng, N Ahmed, X Li, Y Lu - … the 30th annual international ACM SIGIR …, 2007 - dl.acm.org
+
+
+  Cited by 107 
+  
+  
+
+Summarizing the differences from microblogs
+D Wang, M Ogihara, T Li - … of the 35th international ACM SIGIR …, 2012 - dl.acm.org
+
+
+
+  Cited by 6 
+  
+  
+A method of rating the credibility of news documents on the web
+R Nagura, Y Seki, N Kando, M Aono - … annual international ACM SIGIR …, 2006 - dl.acm.org
+
+
+
+  Cited by 39 
+  
+
+
+Simultaneously modeling semantics and structure of threaded discussions: a sparse coding approach and its applications
+C Lin, JM Yang, R Cai, XJ Wang, W Wang - … international ACM SIGIR …, 2009 - dl.acm.org
+
+
+
+  Cited by 40 
+  
+  
+Collaborative filtering via gaussian probabilistic latent semantic analysis
+T Hofmann - … of the 26th annual international ACM SIGIR …, 2003 - dl.acm.org
+
+
+
+  Cited by 429 
+  
+  
+In situ insights
+Y Lv, A Fuxman - … 38th International ACM SIGIR Conference on Research …, 2015 - dl.acm.org
+
+
+
+  Cited by 2 
+  
+  
+
+[PDF] Combining text and linguistic document representations for authorship attribution
+A Kaster, S Siersdorfer… - SIGIR workshop: stylistic …, 2005 - domino.mpi-inf.mpg.de
+
+
+
+  Cited by 32 
+  
+  
+Information retrieval as card playing: A formal model for optimizing interactive retrieval interface
+Y Zhang, C Zhai - Proceedings of the 38th International ACM SIGIR …, 2015 - dl.acm.org
+
+
+
+  Cited by 16
+  
+
+Evaluating evaluation measure stability
+C Buckley, EM Voorhees - ACM SIGIR Forum, 2017 - dl.acm.org
+
+
+
+  Cited by 707 
+  
+  
+Applying Information Extraction for Patent Structure Analysis
+M Okamoto, Z Shan, R Orihara - … of the 40th International ACM SIGIR …, 2017 - dl.acm.org
+
+
+Cited by 0
+ 
+---------------------------------------------------------------------------------------------------------------
+
+
+Fast context-aware recommendations with factorization machines
+S Rendle, Z Gantner, C Freudenthaler… - … ACM SIGIR conference …, 2011 - dl.acm.org
+
+
+  Cited by 249 
+  
+  
+Joint Learning of Response Ranking and Next Utterance Suggestion in Human-Computer Conversation System
+R Yan, D Zhao - Proceedings of the 40th International ACM SIGIR …, 2017 - dl.acm.org
+
+
+Cited by 0
+ 
+Synthesizing high utility suggestions for rare web search queries
+A Jain, U Ozertem, E Velipasaoglu - … of the 34th international ACM SIGIR …, 2011 - dl.acm.org
+
+
+  Cited by 26 
+  
+
+A syntactic tree matching approach to finding similar questions in community-based qa services
+K Wang, Z Ming, TS Chua - … of the 32nd international ACM SIGIR …, 2009 - dl.acm.org
+
+
+
+  Cited by 195 
+  
+  
+[PDF] Experiments and evaluation of link discovery in the wikipedia
+D Huang, A Trotman, S Geva - … of the SIGIR 2008 …, 2008 - pdfs.semanticscholar.org
+
+
+
+  Cited by 7 
+  
+  
+Automatic boolean query suggestion for professional search
+Y Kim, J Seo, WB Croft - … of the 34th international ACM SIGIR conference …, 2011 - dl.acm.org
+
+
+
+  Cited by 44 
+  
+  
+On statistical analysis and optimization of information retrieval effectiveness metrics
+J Wang, J Zhu - … 33rd international ACM SIGIR conference on Research …, 2010 - dl.acm.org
+
+
+
+  Cited by 25 
+  
+  
+
+Learning online discussion structures by conditional random fields
+H Wang, C Wang, CX Zhai, J Han - … of the 34th international ACM SIGIR …, 2011 - dl.acm.org
+
+
+
+  Cited by 45 
+  
+  
+
+Deep learning for information retrieval
+H Li, Z Lu - … 39th International ACM SIGIR conference on Research …, 2016 - dl.acm.org
+
+
+
+  Cited by 8 
+  
+  
+Query representation for cross-temporal information retrieval
+M Efron - … 36th international ACM SIGIR conference on Research …, 2013 - dl.acm.org
+
+
+
+  Cited by 5 
+  
+  
+Modeling user's receptiveness over time for recommendation
+W Chen, W Hsu, ML Lee - … of the 36th international ACM SIGIR …, 2013 - dl.acm.org
+
+
+
+  Cited by 26 
+  
+  
+Report on the INEX 2005 interactive track
+S Malik, B Larsen, A Tombros - ACM SIGIR Forum, 2007 - dl.acm.org
+
+
+
+  Cited by 10 
+  
+  
+
+Learning temporal-dependent ranking models
+M Costa, F Couto, M Silva - … of the 37th international ACM SIGIR …, 2014 - dl.acm.org
+
+
+
+  Cited by 22 
+  
+  
+Table extraction using conditional random fields
+D Pinto, A McCallum, X Wei, WB Croft - … annual international ACM SIGIR …, 2003 - dl.acm.org
+
+
+
+  Cited by 425 
+  
+  
+Query expansion using path-constrained random walks
+J Gao, G Xu, J Xu - Proceedings of the 36th international ACM SIGIR …, 2013 - dl.acm.org
+
+
+
+  Cited by 25 
+  
+  
+  
+Investigating users' query formulations for cognitive search intents
+MP Kato, T Yamamoto, H Ohshima… - … international ACM SIGIR …, 2014 - dl.acm.org
+
+
+
+  Cited by 12 
+  
+
+  
+ 
+ Web page segmentation with structured prediction and its application in web page classification
+L Bing, R Guo, W Lam, ZY Niu, H Wang - … 37th international ACM SIGIR …, 2014 - dl.acm.org
+
+
+
+  Cited by 3 
+  
+  
+Efficient top-k querying over social-tagging networks
+R Schenkel, T Crecelius, M Kacimi, S Michel… - … ACM SIGIR conference …, 2008 - dl.acm.org
+
+
+
+  Cited by 173 
+  
+  
+[PDF] Quickumls: a fast, unsupervised approach for medical concept extraction
+L Soldaini, N Goharian - MedIR workshop, sigir, 2016 - ir.cs.georgetown.edu
+
+
+
+  Cited by 15 
+  
+  
+Content-enriched classifier for web video classification
+B Cui, C Zhang, G Cong - … of the 33rd international ACM SIGIR …, 2010 - dl.acm.org
+
+
+
+  Cited by 18 
+  
+  
+Click-through prediction for news queries
+AC König, M Gamon, Q Wu - … of the 32nd international ACM SIGIR …, 2009 - dl.acm.org
+
+
+
+  Cited by 65 
+  
+  Identifying relevant temporal expressions for real-world events
+N Kanhabua, S Romano, A Stewart - Proceedings of The SIGIR 2012 …, 2012 - l3s.de
+
+
+
+  Cited by 18 
+  
+  
+Personalized time-aware tweets summarization
+Z Ren, S Liang, E Meij, M de Rijke - … of the 36th international ACM SIGIR …, 2013 - dl.acm.org
+
+
+
+  Cited by 55 
+  
+  
+Large-scale graph mining and learning for information retrieval
+B Gao, T Wang, TY Liu - … of the 35th international ACM SIGIR conference …, 2012 - dl.acm.org
+
+
+
+  Cited by 1 
+  
+  
+Ranking with multiple hyperplanes
+T Qin, XD Zhang, DS Wang, TY Liu, W Lai… - … international ACM SIGIR …, 2007 - dl.acm.org
+
+
+
+  Cited by 106 
+  
+  
+ 
+ Methods and metrics for cold-start recommendations
+AI Schein, A Popescul, LH Ungar… - … international ACM SIGIR …, 2002 - dl.acm.org
+
+
+
+  Cited by 1519 
+  
+  
+A Probabilistic Model for Information Retrieval Based on Maximum Value Distribution
+JH Paik - … 38th International ACM SIGIR Conference on Research …, 2015 - dl.acm.org
+
+
+
+  Cited by 3 
+  
+  
+On feature distributional clustering for text categorization
+R Bekkerman, R El-Yaniv, N Tishby… - … international ACM SIGIR …, 2001 - dl.acm.org
+
+
+
+  Cited by 156 
+  
+  
+Unsupervised query segmentation using clickthrough for information retrieval
+Y Li, BJP Hsu, CX Zhai, K Wang - … of the 34th international ACM SIGIR …, 2011 - dl.acm.org
+
+
+
+  Cited by 46 
+  
+  
+Frontiers, challenges, and opportunities for information retrieval: Report from SWIRL 2012 the second strategic workshop on information retrieval in Lorne
+J Allan, B Croft, A Moffat, M Sanderson - ACM SIGIR Forum, 2012 - dl.acm.org
+
+
+
+  Cited by 107 
+  
+  
+[PDF] Semi-supervised statistical inference for business entities extraction and business relations discovery
+RYK Lau, W Zhang - SIGIR 2011 workshop, July, 2011 - pdfs.semanticscholar.org
+
+
+
+  Cited by 6 
+  
+  
+Modeling click-through based word-pairs for web search
+J Jagarlamudi, J Gao - Proceedings of the 36th international ACM SIGIR …, 2013 - dl.acm.org
+
+
+
+  Cited by 3 
+  
+  
+Ranking related news predictions
+N Kanhabua, R Blanco, M Matthews - … the 34th international ACM SIGIR …, 2011 - dl.acm.org
+
+
+
+  Cited by 40 
+  
+  
+Evaluating non-deterministic retrieval systems
+GK Jayasinghe, W Webber, M Sanderson… - … ACM SIGIR conference …, 2014 - dl.acm.org
+
+
+
+  Cited by 3 
+  
+  
+  
+ Modeling action-level satisfaction for search task satisfaction prediction
+H Wang, Y Song, MW Chang, X He, A Hassan… - … ACM SIGIR conference …, 2014 - dl.acm.org
+
+
+
+  Cited by 20 
+  
+  
+Content-based retrieval for heterogeneous domains: domain adaptation by relative aggregation points
+MP Kato, H Ohshima, K Tanaka - … of the 35th international ACM SIGIR …, 2012 - dl.acm.org
+
+
+
+  Cited by 9 
+  
+  
+A nonparametric hierarchical bayesian framework for information filtering
+K Yu, V Tresp, S Yu - … of the 27th annual international ACM SIGIR …, 2004 - dl.acm.org
+
+
+
+  Cited by 68 
+  
+  
+Contextual bandits in a collaborative environment
+Q Wu, H Wang, Q Gu, H Wang - … of the 39th International ACM SIGIR …, 2016 - dl.acm.org
+
+
+
+  Cited by 4 
+  
+  
+Modeling subset distributions for verbose queries
+X Xue, WB Croft - Proceedings of the 34th international ACM SIGIR …, 2011 - dl.acm.org
+
+
+
+  Cited by 11 
+  
+  
+Explicit factor models for explainable recommendation based on phrase-level sentiment analysis
+Y Zhang, G Lai, M Zhang, Y Zhang, Y Liu… - … international ACM SIGIR …, 2014 - dl.acm.org
+
+
+
+  Cited by 119 
+  
+
+What reviews are satisfactory: novel features for automatic helpfulness voting
+Y Hong, J Lu, J Yao, Q Zhu, G Zhou - … the 35th international ACM SIGIR …, 2012 - dl.acm.org
+
+
+
+  Cited by 26 
+  
+  
+Analyzing user's sequential behavior in query auto-completion via markov processes
+L Li, H Deng, A Dong, Y Chang, H Zha… - … ACM SIGIR …, 2015 - dl.acm.org
+
+
+  Cited by 11 
+  
+ 
+ Topic segmentation with an aspect hidden Markov model
+DM Blei, PJ Moreno - … of the 24th annual international ACM SIGIR …, 2001 - dl.acm.org
+
+
+
+  Cited by 183 
+  
+  
+Information storage and retrieval: a survey and functional description
+J Minker - ACM SIGIR Forum, 1977 - dl.acm.org
+
+
+
+  Cited by 21 
+  
+  
+Improving Exploratory Search Experience through Hierarchical Knowledge Graphs
+B Sarrafzadeh, E Lank - … of the 40th International ACM SIGIR …, 2017 - dl.acm.org
+
+
+Cited by 0
+ 
+
+ 
+Learning to suggest: a machine learning framework for ranking query suggestions
+U Ozertem, O Chapelle, P Donmez… - … international ACM SIGIR …, 2012 - dl.acm.org
+
+
+
+  Cited by 52 
+  
+  
+Fast First-Phase Candidate Generation for Cascading Rankers
+Q Wang, C Dimopoulos, T Suel - … of the 39th International ACM SIGIR …, 2016 - dl.acm.org
+
+
+
+  Cited by 1 
+  
+  
+Explainable user clustering in short text streams
+Y Zhao, S Liang, Z Ren, J Ma, E Yilmaz… - … International ACM SIGIR …, 2016 - dl.acm.org
+
+
+
+  Cited by 13 
+  
+  
+Searching by talking: Analysis of voice queries on mobile web search
+I Guy - … 39th International ACM SIGIR conference on Research …, 2016 - dl.acm.org
+
+
+
+  Cited by 21 
+  
+  
+Exploring the limits of single-iteration clarification dialogs
+J Lin, P Wu, D Demner-Fushman, E Abels - … international ACM SIGIR …, 2006 - dl.acm.org
+
+
+
+  Cited by 5 
+  
+  
+Novelty based ranking of human answers for community questions
+A Omari, D Carmel, O Rokhlenko… - … International ACM SIGIR …, 2016 - dl.acm.org
+
+
+
+  Cited by 9 
+  
+  
+Accurately interpreting clickthrough data as implicit feedback
+T Joachims, L Granka, B Pan, H Hembrooke… - … international ACM SIGIR …, 2005 - dl.acm.org
+
+
+
+  Cited by 1236 
+  
+  
+  Faster BlockMax WAND with Variable-sized Blocks
+A Mallia, G Ottaviano, E Porciani, N Tonellotto… - … ACM SIGIR …, 2017 - dl.acm.org
+
+
+Cited by 0
+
+
+Structural relationships for large-scale learning of answer re-ranking
+A Severyn, A Moschitti - Proceedings of the 35th international ACM SIGIR …, 2012 - dl.acm.org
+
+
+
+  Cited by 60 
+  
+  
+[PDF] Introduction to Probabilistic Models for Information Retrieval
+V Lavrenko - … of the 33rd International ACM SIGIR …, 2010 - homepages.inf.ed.ac.uk
+
+
+
+  Cited by 4 
+  
+  
+SPOT: Selecting occuPations frOm Trajectories
+P Li, J Yao, L Wang, X Lin - … of the 40th International ACM SIGIR …, 2017 - dl.acm.org
+
+
+
+
+
+Cited by 0
+
+
+Entity query feature expansion using knowledge base links
+J Dalton, L Dietz, J Allan - … of the 37th international ACM SIGIR …, 2014 - dl.acm.org
+
+
+
+  Cited by 84 
+  
+  
+Uncovering task based behavioral heterogeneities in online search behavior
+R Mehrotra, P Bhattacharya, E Yilmaz - … the 39th International ACM SIGIR …, 2016 - dl.acm.org
+
+
+
+  Cited by 4 
+  
+  
+When does Relevance Mean Usefulness and User Satisfaction in Web Search?
+J Mao, Y Liu, K Zhou, JY Nie, J Song, M Zhang… - … ACM SIGIR conference …, 2016 - dl.acm.org
+
+
+
+  Cited by 10 
+  
+  
+Modeling annotated data
+DM Blei, MI Jordan - … of the 26th annual international ACM SIGIR …, 2003 - dl.acm.org
+
+
+
+  Cited by 1198 
+  
+  Aggregated search interfaces in multi-session tasks
+M Bron, J Van Gorp, F Nack… - SIGIR 2013: 36th …, 2013 - dspace.library.uu.nl
+
+
+
+  Cited by 1 
+  
+
+  
+  
+
+  
+ Local Ranking Problem on the BrowseGraph
+M Trevisiol, LM Aiello, P Boldi, R Blanco - … 38th International ACM SIGIR …, 2015 - dl.acm.org
+
+
+
+  Cited by 1 
+  
+  
+
+Jointly Learning Word Embeddings and Latent Topics
+B Shi, W Lam, S Jameel, S Schockaert… - … International ACM SIGIR …, 2017 - dl.acm.org
+
+
+Cited by 0
+Quads: question answering for decision support
+Z Yang, Y Li, J Cai, E Nyberg - … of the 37th international ACM SIGIR …, 2014 - dl.acm.org
+
+
+
+  Cited by 7 
+  
+  
+Utilizing marginal net utility for recommendation in e-commerce
+J Wang, Y Zhang - Proceedings of the 34th international ACM SIGIR …, 2011 - dl.acm.org
+
+
+
+  Cited by 49 
+  
+
+Relevance scores for triples from type-like relations
+H Bast, B Buchhold, E Haussmann - … of the 38th International ACM SIGIR …, 2015 - dl.acm.org
+
+
+
+  Cited by 25 
+  
+  
+
+  
+  Learning for interaction extraction and verification from biological full articles
+E Kim, Y Song, GG Lee, BK Yi - … of the ACM SIGIR 2004 …, 2004 - pdfs.semanticscholar.org
+
+
+
+  Cited by 1 
+  
+  
+Generating reformulation trees for complex queries
+X Xue, WB Croft - Proceedings of the 35th international ACM SIGIR …, 2012 - dl.acm.org
+
+
+
+  Cited by 9 
+  
+  
+Predicting quality flaws in user-generated content: the case of wikipedia
+M Anderka, B Stein, N Lipka - … of the 35th international ACM SIGIR …, 2012 - dl.acm.org
+
+
+
+  Cited by 56 
+  
+
+  
+  
+
+Effective sentiment stream analysis with self-augmenting training and demand-driven projection
+IS Silva, J Gomide, A Veloso, W Meira Jr… - … international ACM SIGIR …, 2011 - dl.acm.org
+
+
+
+  Cited by 43 
+  
+  
+A generalized hidden markov model with discriminative training for query spelling correction
+Y Li, H Duan, CX Zhai - Proceedings of the 35th international ACM SIGIR …, 2012 - dl.acm.org
+
+
+
+  Cited by 26 
+  
+  
+Aggregated search interface preferences in multi-session search tasks
+M Bron, J Van Gorp, F Nack, LB Baltussen… - … ACM SIGIR conference …, 2013 - dl.acm.org
+
+
+
+  Cited by 21 
+  
+  
+An IR-based evaluation framework for web search query segmentation
+R Saha Roy, N Ganguly, M Choudhury… - … international ACM SIGIR …, 2012 - dl.acm.org
+
+
+
+  Cited by 15 
+  
+  
+A sequential decision formulation of the interface card model for interactive ir
+Y Zhang, C Zhai - Proceedings of the 39th International ACM SIGIR …, 2016 - dl.acm.org
+
+
+
+  Cited by 2 
+  
+  
+Random walks on the click graph
+N Craswell, M Szummer - … of the 30th annual international ACM SIGIR …, 2007 - dl.acm.org
+
+
+
+  Cited by 459 
+  
+  
+User variability and IR system evaluation
+P Bailey, A Moffat, F Scholer, P Thomas - … 38th International ACM SIGIR …, 2015 - dl.acm.org
+
+
+
+  Cited by 27 
+  
+  
+Learning to rank short text pairs with convolutional deep neural networks
+A Severyn, A Moschitti - Proceedings of the 38th International ACM SIGIR …, 2015 - dl.acm.org
+
+
+
+  Cited by 195 
+  
+  
+Accounting for the Correspondence in Commented Data
+R Cai, C Wang, H Wang - … of the 40th International ACM SIGIR …, 2017 - dl.acm.org
+
+
+Cited by 0
+
+
+Predicting searcher frustration
+HA Feild, J Allan, R Jones - … of the 33rd international ACM SIGIR …, 2010 - dl.acm.org
+
+
+  Cited by 131
+  
+  
+Monolingual and cross-lingual information retrieval models based on (bilingual) word embeddings
+I Vulić, MF Moens - Proceedings of the 38th International ACM SIGIR …, 2015 - dl.acm.org
+
+
+
+  Cited by 72 
+  
+  
+Fusion helps diversification
+S Liang, Z Ren, M De Rijke - … of the 37th international ACM SIGIR …, 2014 - dl.acm.org
+
+
+
+  Cited by 33 
+  
+  
+Predicting user satisfaction with intelligent assistants
+J Kiseleva, K Williams, A Hassan Awadallah… - … ACM SIGIR conference …, 2016 - dl.acm.org
+
+
+
+  Cited by 12 
+  
+  Bayesian graphical models for adaptive filtering
+Y Zhang - SIGIR Forum, 2005 - www-2.cs.cmu.edu
+
+
+
+  Cited by 9 
+  
+  
+Injecting user models and time into precision via Markov chains
+M Ferrante, N Ferro, M Maistro - … of the 37th international ACM SIGIR …, 2014 - dl.acm.org
+
+
+
+  Cited by 12 
+  
+  Interaction pool: Towards a user-centered test collection
+H Joho, R Villa, J Jose - SIGIR'07 Web Information-Seeking and …, 2007 - academia.edu
+
+
+
+  Cited by 4 
+  
+  
+Language intent models for inferring user browsing behavior
+M Tsagkias, R Blanco - Proceedings of the 35th international ACM SIGIR …, 2012 - dl.acm.org
+
+
+
+  Cited by 8 
+  
+  
+Exploiting user feedback to learn to rank answers in q&a forums: a case study with stack overflow
+DH Dalip, MA Gonçalves, M Cristo… - … international ACM SIGIR …, 2013 - dl.acm.org
+
+
+
+  Cited by 37 
+  
+  
+Exploiting hybrid contexts for tweet segmentation
+C Li, A Sun, J Weng, Q He - … of the 36th international ACM SIGIR …, 2013 - dl.acm.org
+
+
+
+  Cited by 25 
+  
+  
